@@ -1,9 +1,9 @@
 <PhysiCell_settings version="devel-version">
 	<domain>
-		<x_min>-250</x_min>
-		<x_max>250</x_max>
-		<y_min>-250</y_min>
-		<y_max>250</y_max>
+		<x_min>-200</x_min>
+		<x_max>200</x_max>
+		<y_min>-200</y_min>
+		<y_max>200</y_max>
 		<z_min>-10</z_min>
 		<z_max>10</z_max>
 		<dx>20</dx>
@@ -13,7 +13,7 @@
 	</domain>
 	
 	<overall>
-		<max_time units="min">360</max_time> 
+		<max_time units="min">5760</max_time> 
 		<time_units>min</time_units>
 		<space_units>micron</space_units>
 	
@@ -23,7 +23,7 @@
 	</overall>
 	
 	<parallel>
-		<omp_num_threads>6</omp_num_threads>
+		<omp_num_threads>4</omp_num_threads>
 	</parallel> 
 	
 	<save>
@@ -46,7 +46,7 @@
 	
 	<options>
 		<legacy_random_points_on_sphere_in_divide>false</legacy_random_points_on_sphere_in_divide>
-        <virtual_wall_at_domain_edge>true</virtual_wall_at_domain_edge>
+		<virtual_wall_at_domain_edge>false</virtual_wall_at_domain_edge>
 	</options>	
 
 	<microenvironment_setup>
@@ -55,49 +55,49 @@
           <diffusion_coefficient units="micron^2/min">0</diffusion_coefficient>
           <decay_rate units="1/min">0</decay_rate>
         </physical_parameter_set>
-        <initial_condition units="dimensionless">0.0</initial_condition>
-        <Dirichlet_boundary_condition units="dimensionless" enabled="False">125</Dirichlet_boundary_condition>
+        <initial_condition units="mmHg">0</initial_condition>
+        <Dirichlet_boundary_condition units="mmHg" enabled="False">0</Dirichlet_boundary_condition>
         <Dirichlet_options>
-          <boundary_value ID="xmin" enabled="True">125</boundary_value>
-          <boundary_value ID="xmax" enabled="True">125</boundary_value>
-          <boundary_value ID="ymin" enabled="True">125</boundary_value>
-          <boundary_value ID="ymax" enabled="True">125</boundary_value>
-          <boundary_value ID="zmin" enabled="False">125</boundary_value>
-          <boundary_value ID="zmax" enabled="False">125</boundary_value>
+          <boundary_value ID="xmin" enabled="False">0</boundary_value>
+          <boundary_value ID="xmax" enabled="False">0</boundary_value>
+          <boundary_value ID="ymin" enabled="False">0</boundary_value>
+          <boundary_value ID="ymax" enabled="False">0</boundary_value>
+          <boundary_value ID="zmin" enabled="False">0</boundary_value>
+          <boundary_value ID="zmax" enabled="False">0</boundary_value>
         </Dirichlet_options>
         </variable>
 
       <variable name="Green Light" units="dimensionless" ID="1">
         <physical_parameter_set>
-          <diffusion_coefficient units="micron^2/min">0.0</diffusion_coefficient>
-          <decay_rate units="1/min">0.0</decay_rate>
+          <diffusion_coefficient units="micron^2/min">0</diffusion_coefficient>
+          <decay_rate units="1/min">0</decay_rate>
         </physical_parameter_set>
-        <initial_condition units="dimensionless">0.0</initial_condition>
-        <Dirichlet_boundary_condition units="dimensionless" enabled="False">125</Dirichlet_boundary_condition>
+        <initial_condition units="mmHg">0</initial_condition>
+        <Dirichlet_boundary_condition units="mmHg" enabled="False">0</Dirichlet_boundary_condition>
         <Dirichlet_options>
-          <boundary_value ID="xmin" enabled="True">125</boundary_value>
-          <boundary_value ID="xmax" enabled="True">125</boundary_value>
-          <boundary_value ID="ymin" enabled="True">125</boundary_value>
-          <boundary_value ID="ymax" enabled="True">125</boundary_value>
-          <boundary_value ID="zmin" enabled="False">125</boundary_value>
-          <boundary_value ID="zmax" enabled="False">125</boundary_value>
+          <boundary_value ID="xmin" enabled="False">0</boundary_value>
+          <boundary_value ID="xmax" enabled="False">0</boundary_value>
+          <boundary_value ID="ymin" enabled="False">0</boundary_value>
+          <boundary_value ID="ymax" enabled="False">0</boundary_value>
+          <boundary_value ID="zmin" enabled="False">0</boundary_value>
+          <boundary_value ID="zmax" enabled="False">0</boundary_value>
         </Dirichlet_options>
         </variable>
 
       <variable name="Blue Chromatin" units="dimensionless" ID="2">
         <physical_parameter_set>
-          <diffusion_coefficient units="micron^2/min">1e1000</diffusion_coefficient>
-          <decay_rate units="1/min">1e1000</decay_rate>
+          <diffusion_coefficient units="micron^2/min">1000</diffusion_coefficient>
+          <decay_rate units="1/min">0.4</decay_rate>
         </physical_parameter_set>
         <initial_condition units="dimensionless">0.0</initial_condition>
         <Dirichlet_boundary_condition units="dimensionless" enabled="False">0.0</Dirichlet_boundary_condition>
         <Dirichlet_options>
-          <boundary_value ID="xmin" enabled="False" />
-          <boundary_value ID="xmax" enabled="False" />
-          <boundary_value ID="ymin" enabled="False" />
-          <boundary_value ID="ymax" enabled="False" />
-          <boundary_value ID="zmin" enabled="False" />
-          <boundary_value ID="zmax" enabled="False" />
+          <boundary_value ID="xmin" enabled="False">0.0</boundary_value>
+          <boundary_value ID="xmax" enabled="False">0.0</boundary_value>
+          <boundary_value ID="ymin" enabled="False">0.0</boundary_value>
+          <boundary_value ID="ymax" enabled="False">0.0</boundary_value>
+          <boundary_value ID="zmin" enabled="False">0.0</boundary_value>
+          <boundary_value ID="zmax" enabled="False">0.0</boundary_value>
         </Dirichlet_options>
         </variable>
 
@@ -113,20 +113,20 @@
 				<filename>./config/dirichlet.mat</filename>
 			</dirichlet_nodes>
 		</options>
-	</microenvironment_setup>	
+	</microenvironment_setup>		
 	
 	<cell_definitions>
-		<cell_definition name="Blue" ID="0">
+		<cell_definition name="Blue Bacteria" ID="0">
         <phenotype>
           <cycle code="5" name="live">
             <phase_transition_rates units="1/min">
-              <rate start_index="0" end_index="0" fixed_duration="false">180</rate>
+              <rate start_index="0" end_index="0" fixed_duration="true">0</rate>
             </phase_transition_rates>
             </cycle>
 
           <death>
             <model code="100" name="apoptosis">
-              <death_rate units="1/min">6e-4</death_rate>
+              <death_rate units="1/min">5.31667e-05</death_rate>
               <phase_durations units="min">
                 <duration index="0" fixed_duration="true">516</duration>
               </phase_durations>
@@ -157,9 +157,9 @@
           </death>
 
           <volume>
-            <total units="micron^3">2494</total>
+            <total units="micron^3">1.8</total>
             <fluid_fraction units="dimensionless">0.75</fluid_fraction>
-            <nuclear units="micron^3">540</nuclear>
+            <nuclear units="micron^3">1e-100</nuclear>
             <fluid_change_rate units="1/min">0.05</fluid_change_rate>
             <cytoplasmic_biomass_change_rate units="1/min">0.0045</cytoplasmic_biomass_change_rate>
             <nuclear_biomass_change_rate units="1/min">0.0055</nuclear_biomass_change_rate>
@@ -169,12 +169,12 @@
           </volume>
 
           <mechanics>
-            <cell_cell_adhesion_strength units="micron/min">0</cell_cell_adhesion_strength>
+            <cell_cell_adhesion_strength units="micron/min">0.4</cell_cell_adhesion_strength>
             <cell_cell_repulsion_strength units="micron/min">10.0</cell_cell_repulsion_strength>
             <relative_maximum_adhesion_distance units="dimensionless">1.25</relative_maximum_adhesion_distance>
             <cell_adhesion_affinities>
-                <cell_adhesion_affinity name="Blue">1.0</cell_adhesion_affinity>
-                <cell_adhesion_affinity name="Red">0</cell_adhesion_affinity>
+                <cell_adhesion_affinity name="Blue Bacteria">0.0</cell_adhesion_affinity>
+                <cell_adhesion_affinity name="Red Bacteria">1.0</cell_adhesion_affinity>
                 </cell_adhesion_affinities>
             <options>
               <set_relative_equilibrium_distance enabled="false" units="dimensionless">1.8</set_relative_equilibrium_distance>
@@ -190,7 +190,7 @@
           <motility>
             <speed units="micron/min">1</speed>
             <persistence_time units="min">1</persistence_time>
-            <migration_bias units="dimensionless">0.0</migration_bias>
+            <migration_bias units="dimensionless">.5</migration_bias>
             <options>
               <enabled>true</enabled>
               <use_2D>true</use_2D>
@@ -201,9 +201,9 @@
               </chemotaxis>
               <advanced_chemotaxis>
                 <enabled>false</enabled>
-                <normalize_each_gradient>true</normalize_each_gradient>
+                <normalize_each_gradient>false</normalize_each_gradient>
                 <chemotactic_sensitivities>
-                  <chemotactic_sensitivity substrate="Blue Light">2.0</chemotactic_sensitivity>
+                  <chemotactic_sensitivity substrate="Blue Light">0.0</chemotactic_sensitivity>
                   <chemotactic_sensitivity substrate="Green Light">0.0</chemotactic_sensitivity>
                   <chemotactic_sensitivity substrate="Blue Chromatin">0.0</chemotactic_sensitivity>
                   </chemotactic_sensitivities>
@@ -213,10 +213,10 @@
 
           <secretion>
             <substrate name="Blue Light">
-              <secretion_rate units="1/min">10</secretion_rate>
-              <secretion_target units="substrate density">0.0</secretion_target>
-              <uptake_rate units="1/min">0.0</uptake_rate>
-              <net_export_rate units="total substrate/min">0.0</net_export_rate>
+              <secretion_rate units="1/min">0</secretion_rate>
+              <secretion_target units="substrate density">0</secretion_target>
+              <uptake_rate units="1/min">0</uptake_rate>
+              <net_export_rate units="total substrate/min">0</net_export_rate>
             </substrate>
             <substrate name="Green Light">
               <secretion_rate units="1/min">0.0</secretion_rate>
@@ -225,9 +225,9 @@
               <net_export_rate units="total substrate/min">0.0</net_export_rate>
             </substrate>
             <substrate name="Blue Chromatin">
-              <secretion_rate units="1/min">0</secretion_rate>
-              <secretion_target units="substrate density">0.0</secretion_target>
-              <uptake_rate units="1/min">0.0</uptake_rate>
+              <secretion_rate units="1/min">10</secretion_rate>
+              <secretion_target units="substrate density">38</secretion_target>
+              <uptake_rate units="1/min">0</uptake_rate>
               <net_export_rate units="total substrate/min">0.0</net_export_rate>
             </substrate>
             </secretion>
@@ -235,50 +235,50 @@
           <cell_interactions>
             <dead_phagocytosis_rate units="1/min">0.0</dead_phagocytosis_rate>
             <live_phagocytosis_rates>
-                <phagocytosis_rate name="Blue" units="1/min">0.0</phagocytosis_rate>
-                <phagocytosis_rate name="Red" units="1/min">0.0</phagocytosis_rate>
+                <phagocytosis_rate name="Blue Bacteria" units="1/min">0.0</phagocytosis_rate>
+                <phagocytosis_rate name="Red Bacteria" units="1/min">0.0</phagocytosis_rate>
                 </live_phagocytosis_rates>
 
             <attack_rates>
-                  <attack_rate name="Blue" units="1/min">0.0</attack_rate>
-                  <attack_rate name="Red" units="1/min">0.0</attack_rate>
+                  <attack_rate name="Blue Bacteria" units="1/min">0.0</attack_rate>
+                  <attack_rate name="Red Bacteria" units="1/min">0.0</attack_rate>
                   </attack_rates>
 
             <damage_rate units="1/min">1.0</damage_rate>
             <fusion_rates>
-                  <fusion_rate name="Blue" units="1/min">0.0</fusion_rate>
-                  <fusion_rate name="Red" units="1/min">0.0</fusion_rate>
+                  <fusion_rate name="Blue Bacteria" units="1/min">0.0</fusion_rate>
+                  <fusion_rate name="Red Bacteria" units="1/min">0.0</fusion_rate>
                   </fusion_rates>
 
           </cell_interactions>
 
           <cell_transformations>
             <transformation_rates>
-                <transformation_rate name="Blue" units="1/min">0.0</transformation_rate>
-                <transformation_rate name="Red" units="1/min">0.0</transformation_rate>
+                <transformation_rate name="Blue Bacteria" units="1/min">0.0</transformation_rate>
+                <transformation_rate name="Red Bacteria" units="1/min">0.0</transformation_rate>
                 </transformation_rates>
             </cell_transformations>
 
           </phenotype>
         <custom_data>
-          <sample conserved="false" units="dimensionless" description="">1.0</sample>
+          <oncoprotein conserved="false" units="dimensionless" description="">1.0</oncoprotein>
         </custom_data>
       </cell_definition>
 
-      <cell_definition name="Red" ID="1">
+      <cell_definition name="Red Bacteria" ID="1">
         <phenotype>
           <cycle code="5" name="live">
             <phase_transition_rates units="1/min">
-              <rate start_index="0" end_index="0" fixed_duration="false">0.00072</rate>
+              <rate start_index="0" end_index="0" fixed_duration="false">0.0</rate>
             </phase_transition_rates>
             </cycle>
 
           <death>
             <model code="100" name="apoptosis">
               <death_rate units="1/min">5.31667e-05</death_rate>
-              <phase_transition_rates units="1/min">
-                <rate start_index="0" end_index="1" fixed_duration="false">0.001938</rate>
-              </phase_transition_rates>
+              <phase_durations units="min">
+                <duration index="0" fixed_duration="true">516</duration>
+              </phase_durations>
               <parameters>
                 <unlysed_fluid_change_rate units="1/min">0.05</unlysed_fluid_change_rate>
                 <lysed_fluid_change_rate units="1/min">0</lysed_fluid_change_rate>
@@ -290,31 +290,31 @@
             </model>
             <model code="101" name="necrosis">
               <death_rate units="1/min">0.0</death_rate>
-              <phase_transition_rates units="1/min">
-                <rate start_index="0" end_index="1" fixed_duration="false">9e.9</rate>
-                <rate start_index="1" end_index="2" fixed_duration="true">1.15741e-05</rate>
-              </phase_transition_rates>
+              <phase_durations units="min">
+                <duration index="0" fixed_duration="true">0</duration>
+              <duration index="1" fixed_duration="true">86400</duration>
+              </phase_durations>
               <parameters>
-                <unlysed_fluid_change_rate units="1/min">1.11667e-02</unlysed_fluid_change_rate>
-                <lysed_fluid_change_rate units="1/min">8.33333e-4</lysed_fluid_change_rate>
-                <cytoplasmic_biomass_change_rate units="1/min">5.33333e-05</cytoplasmic_biomass_change_rate>
-                <nuclear_biomass_change_rate units="1/min">2.16667e-4</nuclear_biomass_change_rate>
-                <calcification_rate units="1/min">7e-05</calcification_rate>
+                <unlysed_fluid_change_rate units="1/min">0.05</unlysed_fluid_change_rate>
+                <lysed_fluid_change_rate units="1/min">0</lysed_fluid_change_rate>
+                <cytoplasmic_biomass_change_rate units="1/min">1.66667e-02</cytoplasmic_biomass_change_rate>
+                <nuclear_biomass_change_rate units="1/min">5.83333e-03</nuclear_biomass_change_rate>
+                <calcification_rate units="1/min">0</calcification_rate>
                 <relative_rupture_volume units="dimensionless">2.0</relative_rupture_volume>
               </parameters>
             </model>
           </death>
 
           <volume>
-            <total units="micron^3">2494</total>
+            <total units="micron^3">3.0</total>
             <fluid_fraction units="dimensionless">0.75</fluid_fraction>
-            <nuclear units="micron^3">540</nuclear>
+            <nuclear units="micron^3">1.0</nuclear>
             <fluid_change_rate units="1/min">0.05</fluid_change_rate>
             <cytoplasmic_biomass_change_rate units="1/min">0.0045</cytoplasmic_biomass_change_rate>
             <nuclear_biomass_change_rate units="1/min">0.0055</nuclear_biomass_change_rate>
-            <calcified_fraction units="dimensionless">0.0</calcified_fraction>
-            <calcification_rate units="1/min">0.0</calcification_rate>
-            <relative_rupture_volume units="dimensionless">2</relative_rupture_volume>
+            <calcified_fraction units="dimensionless">0</calcified_fraction>
+            <calcification_rate units="1/min">0</calcification_rate>
+            <relative_rupture_volume units="dimensionless">2.0</relative_rupture_volume>
           </volume>
 
           <mechanics>
@@ -322,8 +322,8 @@
             <cell_cell_repulsion_strength units="micron/min">10.0</cell_cell_repulsion_strength>
             <relative_maximum_adhesion_distance units="dimensionless">1.25</relative_maximum_adhesion_distance>
             <cell_adhesion_affinities>
-                <cell_adhesion_affinity name="Blue">1.0</cell_adhesion_affinity>
-                <cell_adhesion_affinity name="Red">0</cell_adhesion_affinity>
+                <cell_adhesion_affinity name="Blue Bacteria">0</cell_adhesion_affinity>
+                <cell_adhesion_affinity name="Red Bacteria">0</cell_adhesion_affinity>
                 </cell_adhesion_affinities>
             <options>
               <set_relative_equilibrium_distance enabled="false" units="dimensionless">1.8</set_relative_equilibrium_distance>
@@ -337,9 +337,9 @@
           </mechanics>
 
           <motility>
-            <speed units="micron/min">1.0</speed>
-            <persistence_time units="min">1.0</persistence_time>
-            <migration_bias units="dimensionless">0.0</migration_bias>
+            <speed units="micron/min">1</speed>
+            <persistence_time units="min">1</persistence_time>
+            <migration_bias units="dimensionless">.5</migration_bias>
             <options>
               <enabled>true</enabled>
               <use_2D>true</use_2D>
@@ -362,14 +362,14 @@
 
           <secretion>
             <substrate name="Blue Light">
-              <secretion_rate units="1/min">0.0</secretion_rate>
-              <secretion_target units="substrate density">1.0</secretion_target>
-              <uptake_rate units="1/min">0.0</uptake_rate>
-              <net_export_rate units="total substrate/min">0.0</net_export_rate>
+              <secretion_rate units="1/min">0</secretion_rate>
+              <secretion_target units="substrate density">0</secretion_target>
+              <uptake_rate units="1/min">0</uptake_rate>
+              <net_export_rate units="total substrate/min">0</net_export_rate>
             </substrate>
             <substrate name="Green Light">
               <secretion_rate units="1/min">0.0</secretion_rate>
-              <secretion_target units="substrate density">1.0</secretion_target>
+              <secretion_target units="substrate density">0.0</secretion_target>
               <uptake_rate units="1/min">0.0</uptake_rate>
               <net_export_rate units="total substrate/min">0.0</net_export_rate>
             </substrate>
@@ -384,48 +384,53 @@
           <cell_interactions>
             <dead_phagocytosis_rate units="1/min">0.0</dead_phagocytosis_rate>
             <live_phagocytosis_rates>
-                <phagocytosis_rate name="Blue" units="1/min">0.0</phagocytosis_rate>
-                <phagocytosis_rate name="Red" units="1/min">0.0</phagocytosis_rate>
+                <phagocytosis_rate name="Blue Bacteria" units="1/min">0.0</phagocytosis_rate>
+                <phagocytosis_rate name="Red Bacteria" units="1/min">0.0</phagocytosis_rate>
                 </live_phagocytosis_rates>
 
             <attack_rates>
-                  <attack_rate name="Blue" units="1/min">0.0</attack_rate>
-                  <attack_rate name="Red" units="1/min">0.0</attack_rate>
+                  <attack_rate name="Blue Bacteria" units="1/min">0.0</attack_rate>
+                  <attack_rate name="Red Bacteria" units="1/min">0.0</attack_rate>
                   </attack_rates>
 
             <damage_rate units="1/min">1.0</damage_rate>
             <fusion_rates>
-                  <fusion_rate name="Blue" units="1/min">0.0</fusion_rate>
-                  <fusion_rate name="Red" units="1/min">0.0</fusion_rate>
+                  <fusion_rate name="Blue Bacteria" units="1/min">0.0</fusion_rate>
+                  <fusion_rate name="Red Bacteria" units="1/min">0.0</fusion_rate>
                   </fusion_rates>
 
           </cell_interactions>
 
           <cell_transformations>
             <transformation_rates>
-                <transformation_rate name="Blue" units="1/min">0.0</transformation_rate>
-                <transformation_rate name="Red" units="1/min">0.0</transformation_rate>
+                <transformation_rate name="Blue Bacteria" units="1/min">0.0</transformation_rate>
+                <transformation_rate name="Red Bacteria" units="1/min">0.0</transformation_rate>
                 </transformation_rates>
             </cell_transformations>
 
           </phenotype>
         <custom_data>
-          <sample conserved="false" units="dimensionless" description="">0.0</sample>
+          <oncoprotein conserved="false" units="dimensionless" description="">1.0</oncoprotein>
         </custom_data>
       </cell_definition>
 
-      </cell_definitions>
+      </cell_definitions>	
 	
 	<initial_conditions>
 		<cell_positions type="csv" enabled="false">
 			<folder>./config</folder>
 			<filename>cells.csv</filename>
 		</cell_positions>
-	</initial_conditions>	
+	</initial_conditions>		
 	
 	<user_parameters>
-		<random_seed type="int" units="dimensionless" description="">2</random_seed>
-        <number_of_cells type="int" units="none" description="initial number of cells (for each cell type)">4</number_of_cells>
+		<tumor_radius type="double" units="micron" description="">250.0</tumor_radius>
+        <oncoprotein_mean type="double" units="dimensionless" description="">1.0</oncoprotein_mean>
+        <oncoprotein_sd type="double" units="dimensionless" description="">0.25</oncoprotein_sd>
+        <oncoprotein_min type="double" units="dimensionless" description="">0.0</oncoprotein_min>
+        <oncoprotein_max type="double" units="dimensionless" description="">2</oncoprotein_max>
+        <random_seed type="int" units="dimensionless" description="">0</random_seed>
+        <number_of_cells type="int" units="none" description="">100</number_of_cells>
     </user_parameters>
 	
 </PhysiCell_settings>

@@ -1,0 +1,529 @@
+DEBUG:root:QStyleFactory.keys() = ['Windows', 'Fusion']
+DEBUG:root:self.current_dir = /home/alkadhi/Programs/PhysiCell
+DEBUG:root:self.pmb_root_dir = /home/alkadhi/Programs/PhysiCell-model-builder-main
+DEBUG:root:self.config_dir = /home/alkadhi/Programs/PhysiCell/config
+DEBUG:root:=======================  microenv populate_tree  ======================= 
+DEBUG:root:dc_ic_units =  dimensionless
+DEBUG:root:dc_bc_units = dimensionless
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f41307d2570>
+DEBUG:root:   -------- quarem factor:  dirichlet_xmin = 0.0
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f41307d25c0>
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f41307d2610>
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f41307d2660>
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f41307d26b0>
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f41307d2700>
+DEBUG:root:------- options: <Element 'calculate_gradients' at 0x7f41307d27f0>
+DEBUG:root:------- options: <Element 'track_internalized_substrates_in_each_agent' at 0x7f41307d2890>
+DEBUG:root:------- options: <Element 'initial_condition' at 0x7f41307d28e0>
+DEBUG:root:------- options: <Element 'dirichlet_nodes' at 0x7f41307d29d0>
+DEBUG:root:
+
+=======================  leaving microenv populate_tree  =====================
+DEBUG:root:
+====================== create_cycle_tab ===================
+DEBUG:root: new stacked widget: trate live -------------> 0
+DEBUG:root: new stacked widget: trate Ki67 -------------> 1
+DEBUG:root: new stacked widget: t02 -------------> 2
+DEBUG:root: new stacked widget: trate_flowcyto -------------> 3
+DEBUG:root: new stacked widget: flow cyto sep -------------> 4
+DEBUG:root: new stacked widget: trate_quiescent -------------> 5
+DEBUG:root: new stacked widget: duration live -------------> 6
+DEBUG:root: new stacked widget: duration Ki67 -------------> 7
+DEBUG:root: new stacked widget: t02 -------------> 8
+DEBUG:root: new stacked widget: duration_flowcyto -------------> 9
+DEBUG:root: new stacked widget: flow cyto sep -------------> 10
+DEBUG:root: new stacked widget: duration_quiescent -------------> 11
+DEBUG:root:intracellular is Unkown
+DEBUG:root:pmb.py: first_cell_def_name= bacteria
+DEBUG:root:cell_def_tab.py: ------- fill_substrates_comboboxes
+DEBUG:root: --> quarem factor
+DEBUG:root:------ motility_substrate_changed_cb(): idx = 0
+DEBUG:root:       motility_substrate_changed_cb(): self.current_cell_def = None
+DEBUG:root:------ motility2_substrate_changed_cb(): idx = 0
+DEBUG:root:   text (subname) = quarem factor
+DEBUG:root:=======================  populate_tree_cell_defs(): ======================= 
+DEBUG:root:    cell_def_tab.param_d = {}
+DEBUG:root:
+
+=======================  validate_cell_defs(): ======================= 
+DEBUG:root:Checking bacteria
+DEBUG:root:=======================  end validate_cell_defs(): =======================
+
+
+DEBUG:root:----- cell_def.tag= cell_definition
+DEBUG:root:
+--------new_interaction_params(): cdname_new= bacteria
+DEBUG:root:
+--------new_intracellular_params(): cdname_new= bacteria
+DEBUG:root:------- new_custom_data_params() -----
+DEBUG:root:
+===== populate_tree():  cycle
+DEBUG:root: >> cycle_path= .//cell_definition[1]//phenotype//cycle
+DEBUG:root:   cycle code= 5
+DEBUG:root: >> phase_transition_path 
+DEBUG:root:<Element 'rate' at 0x7f41307d2cf0>
+DEBUG:root:--  cycle_live_trate00 180
+DEBUG:root: >> phase_durations_path =.//cell_definition[1]//phenotype//cycle//phase_durations
+DEBUG:root: >> pd_uep =None
+DEBUG:root:
+===== populate_tree():  death
+DEBUG:root:death_uep=<Element 'death' at 0x7f41307d2d40>
+DEBUG:root:-------- parsing apoptosis!
+DEBUG:root: >> pd_uep =<Element 'phase_durations' at 0x7f41307d2e30>
+DEBUG:root:phase_duration= <Element 'duration' at 0x7f41307d2ed0>
+DEBUG:root:index= 0
+DEBUG:root:-------- parsing necrosis!
+DEBUG:root: >> pd_uep =<Element 'phase_durations' at 0x7f41307d35b0>
+DEBUG:root:<Element 'duration' at 0x7f41307d3650>
+DEBUG:root:index= 0
+DEBUG:root:<Element 'duration' at 0x7f41307d36a0>
+DEBUG:root:index= 1
+DEBUG:root:volume_path=.//cell_definition[1]//phenotype//volume//
+DEBUG:root:
+===== populate_tree():  mechanics
+DEBUG:root:mechanics_path=.//cell_definition[1]//phenotype//mechanics//
+DEBUG:root:---- cell_interactions_path= .//cell_definition[1]//phenotype//mechanics//cell_adhesion_affinities
+DEBUG:root:---- found cell_adhesion_affinities_path:
+DEBUG:root:--> {'bacteria': '1.0'}
+DEBUG:root:
+===== populate_tree():  motility
+DEBUG:root:motility_path=.//cell_definition[1]//phenotype//motility//
+DEBUG:root:
+----------- populate_tree_cell_defs.py: cell_def_name= bacteria,  cell_def_tab.param_d[cell_def_name]["motility_chemotaxis_substrate"] = quarem factor
+DEBUG:root:motility_advanced_chemotaxis_path= .//cell_definition[1]//phenotype//motility//options//advanced_chemotaxis//
+DEBUG:root:chemotactic_sensitivity= {'quarem factor': '0.0'}
+DEBUG:root:sensitivity_path= .//cell_definition[1]//phenotype//motility//options//advanced_chemotaxis//chemotactic_sensitivities
+DEBUG:root:---- found chemotactic_sensitivities: <Element 'chemotactic_sensitivities' at 0x7f41307ecea0>
+DEBUG:root:subelm=<Element 'chemotactic_sensitivity' at 0x7f41307ecf90>
+DEBUG:root: chemotactic_sensitivity--> quarem factor = 0.0
+DEBUG:root:{'quarem factor': '0.0'}
+DEBUG:root:------ motility2_substrate_changed_cb(): idx = 0
+DEBUG:root:   text (subname) = quarem factor
+DEBUG:root:    motility_advanced_chemotaxis_substrate= quarem factor
+DEBUG:root:   chemotactic_sensitivity = {'quarem factor': '0.0'}
+DEBUG:root:----- chemo_sensitivity_changed() = 0.0
+DEBUG:root:----- chemo_sensitivity_changed(): subname = quarem factor
+DEBUG:root:     chemotactic_sensitivity (dict)= {'quarem factor': '0.0'}
+DEBUG:root:
+===== populate_tree():  secretion
+DEBUG:root:secretion_path = .//cell_definition[1]//phenotype//secretion//
+DEBUG:root:uep_secretion = <Element 'secretion' at 0x7f41307ed080>
+DEBUG:root:0) -- secretion substrate = quarem factor
+DEBUG:root:------ done parsing secretion:
+DEBUG:root:
+===== populate_tree():  cell_interactions
+DEBUG:root:---- cell_interactions_path= .//cell_definition[1]//phenotype//cell_interactions
+DEBUG:root:---- found cell_interactions:
+DEBUG:root:uep2= <Element 'live_phagocytosis_rates' at 0x7f41307ed4e0>
+DEBUG:root: live_phagocytosis_rate= {'bacteria': '0.0'}
+DEBUG:root: attack_rate= {'bacteria': '0.0'}
+DEBUG:root: fusion_rate= {'bacteria': '0.0'}
+DEBUG:root:------ done parsing cell_interactions:
+DEBUG:root:---- transformation_rates_path = .//cell_definition[1]//phenotype//cell_transformations//transformation_rates
+DEBUG:root: transformation_rate= {'bacteria': '0.0'}
+DEBUG:root:------ done parsing cell_transformations:
+DEBUG:root:
+===== populate_tree():  molecular
+DEBUG:root:
+===== populate_tree():  intracellular
+DEBUG:root:------ done parsing intracellular:
+DEBUG:root:
+===== populate_tree():  custom data
+DEBUG:root:uep_custom_data= <Element 'custom_data' at 0x7f41307edbc0>
+DEBUG:root:--------------- populate_tree: (empty)custom_data = {}
+DEBUG:root:var.attrib.keys() = dict_keys(['conserved', 'units', 'description'])
+DEBUG:root:populate: cell_def_name= bacteria --> custom_data: {'sample': ['1.0', False]}
+DEBUG:root:
+  ---- apoptosis_phase_transition_cb: 
+DEBUG:root:apoptosis: ------>> duration
+DEBUG:root:apoptosis_phase_transition_cb: --> duration
+DEBUG:root:
+  ---- necrosis_phase_transition_cb: 
+DEBUG:root:necrosis: ------>>duration
+DEBUG:root:necrosis_phase_transition_cb: --> duration
+DEBUG:root:
+----- update_motility_params():  cdname= bacteria
+DEBUG:root:   (simple) chemotaxis motility is enabled:
+DEBUG:root:     setting motility_substrate_dropdown (for cdname= bacteria ) = quarem factor
+DEBUG:root:     setting motility2_substrate_dropdown (for cdname= bacteria ) = quarem factor
+DEBUG:root:    chemotactic_sensitivity= {'quarem factor': '0.0'}
+DEBUG:root:new val = 0.0
+DEBUG:root:----- leave update_motility_params()
+
+DEBUG:root:update_secretion_params(): cdname = bacteria
+DEBUG:root:update_secretion_params(): self.current_secretion_substrate = quarem factor
+DEBUG:root:{'quarem factor': {'secretion_rate': '10', 'secretion_target': '0.0', 'uptake_rate': '0.0', 'net_export_rate': '0.0'}}
+DEBUG:root:cell_def_tab.py: ------- fill_celltypes_comboboxes
+DEBUG:root:
+
+------------  user_params_tab: fill_gui --------------
+DEBUG:root:uep_user_params= <Element 'user_parameters' at 0x7f41307eddf0>
+DEBUG:root:pmb.py: self.current_dir = /home/alkadhi/Programs/PhysiCell
+DEBUG:root:
+pmb.py: open_as_cb():  full_path_model_name =/home/alkadhi/Programs/PhysiCell/config/BacteriaSceneTemplate.xml
+DEBUG:root:     filePath is valid
+DEBUG:root:     len(full_path_model_name) = 65
+DEBUG:root:pmb: show_sample_model(): self.config_file = /home/alkadhi/Programs/PhysiCell/config/BacteriaSceneTemplate.xml
+DEBUG:root:=======================  microenv populate_tree  ======================= 
+DEBUG:root:dc_ic_units =  mmHg
+DEBUG:root:dc_bc_units = mmHg
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f4130640770>
+DEBUG:root:   -------- Blue Light:  dirichlet_xmin = 14.0
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f41306407c0>
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f4130640810>
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f4130640860>
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f41306408b0>
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f4130640900>
+DEBUG:root:dc_ic_units =  mmHg
+DEBUG:root:dc_bc_units = mmHg
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f4130640b80>
+DEBUG:root:   -------- Green Light:  dirichlet_xmin = 14.0
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f4130640bd0>
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f4130640c20>
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f4130640c70>
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f4130640cc0>
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f4130640d10>
+DEBUG:root:dc_ic_units =  dimensionless
+DEBUG:root:dc_bc_units = dimensionless
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f4130640f90>
+DEBUG:root:   -------- Blue Chromatin:  dirichlet_xmin = 0.0
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f4130640fe0>
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f4130641030>
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f4130641080>
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f41306410d0>
+DEBUG:root:bv = <Element 'boundary_value' at 0x7f4130641120>
+DEBUG:root:------- options: <Element 'calculate_gradients' at 0x7f4130641210>
+DEBUG:root:------- options: <Element 'track_internalized_substrates_in_each_agent' at 0x7f41306412b0>
+DEBUG:root:------- options: <Element 'initial_condition' at 0x7f4130641300>
+DEBUG:root:------- options: <Element 'dirichlet_nodes' at 0x7f41306413f0>
+DEBUG:root:
+
+=======================  leaving microenv populate_tree  =====================
+DEBUG:root:cell_def_tab.py: ------- fill_substrates_comboboxes
+DEBUG:root:------ motility_substrate_changed_cb(): idx = -1
+DEBUG:root:       motility_substrate_changed_cb(): self.current_cell_def = None
+DEBUG:root:------ motility2_substrate_changed_cb(): idx = -1
+DEBUG:root:   text (subname) = 
+DEBUG:root:   subname is empty, return!
+DEBUG:root: --> Blue Light
+DEBUG:root:------ motility_substrate_changed_cb(): idx = 0
+DEBUG:root:       motility_substrate_changed_cb(): self.current_cell_def = None
+DEBUG:root:------ motility2_substrate_changed_cb(): idx = 0
+DEBUG:root:   text (subname) = Blue Light
+DEBUG:root: --> Green Light
+DEBUG:root: --> Blue Chromatin
+DEBUG:root:=======================  populate_tree_cell_defs(): ======================= 
+DEBUG:root:    cell_def_tab.param_d = {}
+DEBUG:root:
+
+=======================  validate_cell_defs(): ======================= 
+DEBUG:root:Checking Blue Bacteria
+DEBUG:root:Checking Red Bacteria
+DEBUG:root:=======================  end validate_cell_defs(): =======================
+
+
+DEBUG:root:----- cell_def.tag= cell_definition
+DEBUG:root:
+--------new_interaction_params(): cdname_new= Blue Bacteria
+DEBUG:root:
+--------new_intracellular_params(): cdname_new= Blue Bacteria
+DEBUG:root:------- new_custom_data_params() -----
+DEBUG:root:
+===== populate_tree():  cycle
+DEBUG:root: >> cycle_path= .//cell_definition[1]//phenotype//cycle
+DEBUG:root:   cycle code= 5
+DEBUG:root: >> phase_transition_path 
+DEBUG:root:<Element 'rate' at 0x7f4130641710>
+DEBUG:root:--  cycle_live_trate00 0
+DEBUG:root: >> phase_durations_path =.//cell_definition[1]//phenotype//cycle//phase_durations
+DEBUG:root: >> pd_uep =None
+DEBUG:root:
+===== populate_tree():  death
+DEBUG:root:death_uep=<Element 'death' at 0x7f4130641760>
+DEBUG:root:-------- parsing apoptosis!
+DEBUG:root: >> pd_uep =<Element 'phase_durations' at 0x7f4130641850>
+DEBUG:root:phase_duration= <Element 'duration' at 0x7f41306418f0>
+DEBUG:root:index= 0
+DEBUG:root:-------- parsing necrosis!
+DEBUG:root: >> pd_uep =<Element 'phase_durations' at 0x7f4130641fd0>
+DEBUG:root:<Element 'duration' at 0x7f4130642070>
+DEBUG:root:index= 0
+DEBUG:root:<Element 'duration' at 0x7f41306420c0>
+DEBUG:root:index= 1
+DEBUG:root:volume_path=.//cell_definition[1]//phenotype//volume//
+DEBUG:root:
+===== populate_tree():  mechanics
+DEBUG:root:mechanics_path=.//cell_definition[1]//phenotype//mechanics//
+DEBUG:root:---- cell_interactions_path= .//cell_definition[1]//phenotype//mechanics//cell_adhesion_affinities
+DEBUG:root:---- found cell_adhesion_affinities_path:
+DEBUG:root:--> {'Blue Bacteria': '0.0'}
+DEBUG:root:--> {'Blue Bacteria': '0.0', 'Red Bacteria': '0'}
+DEBUG:root:
+===== populate_tree():  motility
+DEBUG:root:motility_path=.//cell_definition[1]//phenotype//motility//
+DEBUG:root:
+----------- populate_tree_cell_defs.py: cell_def_name= Blue Bacteria,  cell_def_tab.param_d[cell_def_name]["motility_chemotaxis_substrate"] = Blue Light
+DEBUG:root:motility_advanced_chemotaxis_path= .//cell_definition[1]//phenotype//motility//options//advanced_chemotaxis//
+DEBUG:root:chemotactic_sensitivity= {'Blue Light': '0.0', 'Green Light': '0.0', 'Blue Chromatin': '0.0'}
+DEBUG:root:sensitivity_path= .//cell_definition[1]//phenotype//motility//options//advanced_chemotaxis//chemotactic_sensitivities
+DEBUG:root:---- found chemotactic_sensitivities: <Element 'chemotactic_sensitivities' at 0x7f4130643920>
+DEBUG:root:subelm=<Element 'chemotactic_sensitivity' at 0x7f4130643a10>
+DEBUG:root: chemotactic_sensitivity--> Blue Light = 0.0
+DEBUG:root:subelm=<Element 'chemotactic_sensitivity' at 0x7f4130643ab0>
+DEBUG:root: chemotactic_sensitivity--> Green Light = 0.0
+DEBUG:root:subelm=<Element 'chemotactic_sensitivity' at 0x7f4130643b50>
+DEBUG:root: chemotactic_sensitivity--> Blue Chromatin = 0.0
+DEBUG:root:{'Blue Light': '0.0', 'Green Light': '0.0', 'Blue Chromatin': '0.0'}
+DEBUG:root:------ motility2_substrate_changed_cb(): idx = 0
+DEBUG:root:   text (subname) = Blue Light
+DEBUG:root:    motility_advanced_chemotaxis_substrate= Blue Light
+DEBUG:root:   chemotactic_sensitivity = {'Blue Light': '0.0', 'Green Light': '0.0', 'Blue Chromatin': '0.0'}
+DEBUG:root:
+===== populate_tree():  secretion
+DEBUG:root:secretion_path = .//cell_definition[1]//phenotype//secretion//
+DEBUG:root:uep_secretion = <Element 'secretion' at 0x7f4130643c40>
+DEBUG:root:0) -- secretion substrate = Blue Light
+DEBUG:root:1) -- secretion substrate = Green Light
+DEBUG:root:2) -- secretion substrate = Blue Chromatin
+DEBUG:root:------ done parsing secretion:
+DEBUG:root:
+===== populate_tree():  cell_interactions
+DEBUG:root:---- cell_interactions_path= .//cell_definition[1]//phenotype//cell_interactions
+DEBUG:root:---- found cell_interactions:
+DEBUG:root:uep2= <Element 'live_phagocytosis_rates' at 0x7f4130658540>
+DEBUG:root: live_phagocytosis_rate= {'Blue Bacteria': '0.0', 'Red Bacteria': '0.0'}
+DEBUG:root: attack_rate= {'Blue Bacteria': '0.0', 'Red Bacteria': '0.0'}
+DEBUG:root: fusion_rate= {'Blue Bacteria': '0.0', 'Red Bacteria': '0.0'}
+DEBUG:root:------ done parsing cell_interactions:
+DEBUG:root:---- transformation_rates_path = .//cell_definition[1]//phenotype//cell_transformations//transformation_rates
+DEBUG:root: transformation_rate= {'Blue Bacteria': '0.0', 'Red Bacteria': '0.0'}
+DEBUG:root:------ done parsing cell_transformations:
+DEBUG:root:
+===== populate_tree():  molecular
+DEBUG:root:
+===== populate_tree():  intracellular
+DEBUG:root:------ done parsing intracellular:
+DEBUG:root:
+===== populate_tree():  custom data
+DEBUG:root:uep_custom_data= <Element 'custom_data' at 0x7f4130658ea0>
+DEBUG:root:--------------- populate_tree: (empty)custom_data = {}
+DEBUG:root:var.attrib.keys() = dict_keys(['conserved', 'units', 'description'])
+DEBUG:root:populate: cell_def_name= Blue Bacteria --> custom_data: {'oncoprotein': ['1.0', False]}
+DEBUG:root:----- cell_def.tag= cell_definition
+DEBUG:root:
+--------new_interaction_params(): cdname_new= Red Bacteria
+DEBUG:root:
+--------new_intracellular_params(): cdname_new= Red Bacteria
+DEBUG:root:------- new_custom_data_params() -----
+DEBUG:root:
+===== populate_tree():  cycle
+DEBUG:root: >> cycle_path= .//cell_definition[2]//phenotype//cycle
+DEBUG:root:   cycle code= 5
+DEBUG:root: >> phase_transition_path 
+DEBUG:root:<Element 'rate' at 0x7f4130659080>
+DEBUG:root:--  cycle_live_trate00 0.0
+DEBUG:root: >> phase_durations_path =.//cell_definition[2]//phenotype//cycle//phase_durations
+DEBUG:root: >> pd_uep =None
+DEBUG:root:
+===== populate_tree():  death
+DEBUG:root:death_uep=<Element 'death' at 0x7f41306590d0>
+DEBUG:root:-------- parsing apoptosis!
+DEBUG:root: >> pd_uep =<Element 'phase_durations' at 0x7f41306591c0>
+DEBUG:root:phase_duration= <Element 'duration' at 0x7f4130659260>
+DEBUG:root:index= 0
+DEBUG:root:-------- parsing necrosis!
+DEBUG:root: >> pd_uep =<Element 'phase_durations' at 0x7f4130659760>
+DEBUG:root:<Element 'duration' at 0x7f4130659800>
+DEBUG:root:index= 0
+DEBUG:root:<Element 'duration' at 0x7f4130659850>
+DEBUG:root:index= 1
+DEBUG:root:volume_path=.//cell_definition[2]//phenotype//volume//
+DEBUG:root:
+===== populate_tree():  mechanics
+DEBUG:root:mechanics_path=.//cell_definition[2]//phenotype//mechanics//
+DEBUG:root:---- cell_interactions_path= .//cell_definition[2]//phenotype//mechanics//cell_adhesion_affinities
+DEBUG:root:---- found cell_adhesion_affinities_path:
+DEBUG:root:--> {'Blue Bacteria': '0'}
+DEBUG:root:--> {'Blue Bacteria': '0', 'Red Bacteria': '0'}
+DEBUG:root:
+===== populate_tree():  motility
+DEBUG:root:motility_path=.//cell_definition[2]//phenotype//motility//
+DEBUG:root:
+----------- populate_tree_cell_defs.py: cell_def_name= Red Bacteria,  cell_def_tab.param_d[cell_def_name]["motility_chemotaxis_substrate"] = Blue Chromatin
+DEBUG:root:motility_advanced_chemotaxis_path= .//cell_definition[2]//phenotype//motility//options//advanced_chemotaxis//
+DEBUG:root:chemotactic_sensitivity= {'Blue Light': '0.0', 'Green Light': '0.0', 'Blue Chromatin': '0.0'}
+DEBUG:root:sensitivity_path= .//cell_definition[2]//phenotype//motility//options//advanced_chemotaxis//chemotactic_sensitivities
+DEBUG:root:---- found chemotactic_sensitivities: <Element 'chemotactic_sensitivities' at 0x7f413065abb0>
+DEBUG:root:subelm=<Element 'chemotactic_sensitivity' at 0x7f413065ac50>
+DEBUG:root: chemotactic_sensitivity--> Blue Light = 0.0
+DEBUG:root:subelm=<Element 'chemotactic_sensitivity' at 0x7f413065acf0>
+DEBUG:root: chemotactic_sensitivity--> Green Light = 0.0
+DEBUG:root:subelm=<Element 'chemotactic_sensitivity' at 0x7f413065ad90>
+DEBUG:root: chemotactic_sensitivity--> Blue Chromatin = 0.0
+DEBUG:root:{'Blue Light': '0.0', 'Green Light': '0.0', 'Blue Chromatin': '0.0'}
+DEBUG:root:------ motility2_substrate_changed_cb(): idx = 0
+DEBUG:root:   text (subname) = Blue Light
+DEBUG:root:    motility_advanced_chemotaxis_substrate= Blue Light
+DEBUG:root:   chemotactic_sensitivity = {'Blue Light': '0.0', 'Green Light': '0.0', 'Blue Chromatin': '0.0'}
+DEBUG:root:
+===== populate_tree():  secretion
+DEBUG:root:secretion_path = .//cell_definition[2]//phenotype//secretion//
+DEBUG:root:uep_secretion = <Element 'secretion' at 0x7f413065ae80>
+DEBUG:root:0) -- secretion substrate = Blue Light
+DEBUG:root:1) -- secretion substrate = Green Light
+DEBUG:root:2) -- secretion substrate = Blue Chromatin
+DEBUG:root:------ done parsing secretion:
+DEBUG:root:
+===== populate_tree():  cell_interactions
+DEBUG:root:---- cell_interactions_path= .//cell_definition[2]//phenotype//cell_interactions
+DEBUG:root:---- found cell_interactions:
+DEBUG:root:uep2= <Element 'live_phagocytosis_rates' at 0x7f413065b600>
+DEBUG:root: live_phagocytosis_rate= {'Blue Bacteria': '0.0', 'Red Bacteria': '0.0'}
+DEBUG:root: attack_rate= {'Blue Bacteria': '0.0', 'Red Bacteria': '0.0'}
+DEBUG:root: fusion_rate= {'Blue Bacteria': '0.0', 'Red Bacteria': '0.0'}
+DEBUG:root:------ done parsing cell_interactions:
+DEBUG:root:---- transformation_rates_path = .//cell_definition[2]//phenotype//cell_transformations//transformation_rates
+DEBUG:root: transformation_rate= {'Blue Bacteria': '0.0', 'Red Bacteria': '0.0'}
+DEBUG:root:------ done parsing cell_transformations:
+DEBUG:root:
+===== populate_tree():  molecular
+DEBUG:root:
+===== populate_tree():  intracellular
+DEBUG:root:------ done parsing intracellular:
+DEBUG:root:
+===== populate_tree():  custom data
+DEBUG:root:uep_custom_data= <Element 'custom_data' at 0x7f413065be20>
+DEBUG:root:--------------- populate_tree: (empty)custom_data = {}
+DEBUG:root:var.attrib.keys() = dict_keys(['conserved', 'units', 'description'])
+DEBUG:root:populate: cell_def_name= Red Bacteria --> custom_data: {'oncoprotein': ['1.0', False]}
+DEBUG:root:
+----- update_motility_params():  cdname= Blue Bacteria
+DEBUG:root:   (simple) chemotaxis motility is enabled:
+DEBUG:root:     setting motility_substrate_dropdown (for cdname= Blue Bacteria ) = Blue Light
+DEBUG:root:     setting motility2_substrate_dropdown (for cdname= Blue Bacteria ) = Blue Light
+DEBUG:root:    chemotactic_sensitivity= {'Blue Light': '0.0', 'Green Light': '0.0', 'Blue Chromatin': '0.0'}
+DEBUG:root:new val = 0.0
+DEBUG:root:----- leave update_motility_params()
+
+DEBUG:root:update_secretion_params(): cdname = Blue Bacteria
+DEBUG:root:update_secretion_params(): self.current_secretion_substrate = Blue Light
+DEBUG:root:{'Blue Light': {'secretion_rate': '0', 'secretion_target': '0', 'uptake_rate': '0', 'net_export_rate': '0'}, 'Green Light': {'secretion_rate': '0.0', 'secretion_target': '0.0', 'uptake_rate': '0.0', 'net_export_rate': '0.0'}, 'Blue Chromatin': {'secretion_rate': '10', 'secretion_target': '38', 'uptake_rate': '0', 'net_export_rate': '0.0'}}
+DEBUG:root:cell_def_tab.py: ------- fill_celltypes_comboboxes
+DEBUG:root:
+
+------------  user_params_tab: fill_gui --------------
+DEBUG:root:uep_user_params= <Element 'user_parameters' at 0x7f413066c090>
+DEBUG:root:------- config_tab.py: fill_xml(): setting folder = output
+DEBUG:root:------- config_tab.py: fill_xml(): setting csv folder = ./config
+DEBUG:root:------- config_tab.py: fill_xml(): setting csv filename = cells.csv
+DEBUG:root:----------- microenv_tab.py: fill_xml(): ----------
+DEBUG:root:microenv_tab.py: fill_xml(): num subtrates = 3
+DEBUG:root:substrates_in_tree =['Blue Light', 'Green Light', 'Blue Chromatin']
+DEBUG:root:microrenv_tab.py: key in param_d.keys() = quarem factor
+DEBUG:root:microrenv_tab.py: key in param_d.keys() = gradients
+DEBUG:root:microrenv_tab.py: key in param_d.keys() = track_in_agents
+DEBUG:root:microrenv_tab.py: key in param_d.keys() = Blue Light
+DEBUG:root:matched! Blue Light
+DEBUG:root:microrenv_tab.py: key in param_d.keys() = Green Light
+DEBUG:root:matched! Green Light
+DEBUG:root:microrenv_tab.py: key in param_d.keys() = Blue Chromatin
+DEBUG:root:matched! Blue Chromatin
+DEBUG:root:
+
+----------- cell_def_tab.py: fill_xml(): ----------
+DEBUG:root:num cell defs = 2
+DEBUG:root:cdefs_in_tree =['Blue Bacteria', 'Red Bacteria']
+DEBUG:root:
+--- key in param_d.keys() = Blue Bacteria
+DEBUG:root:matched! Blue Bacteria
+DEBUG:root:--- cell_adhesion_affinity= {'Blue Bacteria': '0.0', 'Red Bacteria': '1.0'}
+DEBUG:root:Blue Bacteria  --> 0.0
+DEBUG:root:Red Bacteria  --> 1.0
+DEBUG:root:
+
+ ====================> fill_xml_motility(): Blue Light = Blue Light 
+
+
+DEBUG:root:fill_xml_motility(): {'Blue Light': '0.0', 'Green Light': '0.0', 'Blue Chromatin': '0.0'}
+DEBUG:root:Blue Light  --> 0.0
+DEBUG:root:Green Light  --> 0.0
+DEBUG:root:Blue Chromatin  --> 0.0
+DEBUG:root:self.substrate_list = ['Blue Light', 'Green Light', 'Blue Chromatin']
+DEBUG:root:substrate = Blue Light
+DEBUG:root:substrate = Green Light
+DEBUG:root:substrate = Blue Chromatin
+DEBUG:root:------------------- fill_xml_interactions():  cdef= Blue Bacteria
+DEBUG:root:--- live_phagocytosis_rate= {'Blue Bacteria': '0.0', 'Red Bacteria': '0.0'}
+DEBUG:root:  key in live_phagocytosis_rate= Blue Bacteria
+DEBUG:root:Blue Bacteria  --> 0.0
+DEBUG:root:  key in live_phagocytosis_rate= Red Bacteria
+DEBUG:root:Red Bacteria  --> 0.0
+DEBUG:root:--- attack_rate= {'Blue Bacteria': '0.0', 'Red Bacteria': '0.0'}
+DEBUG:root:Blue Bacteria  --> 0.0
+DEBUG:root:Red Bacteria  --> 0.0
+DEBUG:root:--- fusion_rate= {'Blue Bacteria': '0.0', 'Red Bacteria': '0.0'}
+DEBUG:root:Blue Bacteria  --> 0.0
+DEBUG:root:Red Bacteria  --> 0.0
+DEBUG:root:Blue Bacteria  --> 0.0
+DEBUG:root:Red Bacteria  --> 0.0
+DEBUG:root:------------------- fill_xml_intracellular()
+DEBUG:root:------ ["intracellular"]: for Blue Bacteria
+DEBUG:root:None
+DEBUG:root:
+
+DEBUG:root:------ ["custom_data"]: for Blue Bacteria
+DEBUG:root:
+
+DEBUG:root:
+--- key in param_d.keys() = Red Bacteria
+DEBUG:root:matched! Red Bacteria
+DEBUG:root:--- cell_adhesion_affinity= {'Blue Bacteria': '0', 'Red Bacteria': '0'}
+DEBUG:root:Blue Bacteria  --> 0
+DEBUG:root:Red Bacteria  --> 0
+DEBUG:root:
+
+ ====================> fill_xml_motility(): Blue Chromatin = Blue Chromatin 
+
+
+DEBUG:root:fill_xml_motility(): {'Blue Light': '0.0', 'Green Light': '0.0', 'Blue Chromatin': '0.0'}
+DEBUG:root:Blue Light  --> 0.0
+DEBUG:root:Green Light  --> 0.0
+DEBUG:root:Blue Chromatin  --> 0.0
+DEBUG:root:self.substrate_list = ['Blue Light', 'Green Light', 'Blue Chromatin']
+DEBUG:root:substrate = Blue Light
+DEBUG:root:substrate = Green Light
+DEBUG:root:substrate = Blue Chromatin
+DEBUG:root:------------------- fill_xml_interactions():  cdef= Red Bacteria
+DEBUG:root:--- live_phagocytosis_rate= {'Blue Bacteria': '0.0', 'Red Bacteria': '0.0'}
+DEBUG:root:  key in live_phagocytosis_rate= Blue Bacteria
+DEBUG:root:Blue Bacteria  --> 0.0
+DEBUG:root:  key in live_phagocytosis_rate= Red Bacteria
+DEBUG:root:Red Bacteria  --> 0.0
+DEBUG:root:--- attack_rate= {'Blue Bacteria': '0.0', 'Red Bacteria': '0.0'}
+DEBUG:root:Blue Bacteria  --> 0.0
+DEBUG:root:Red Bacteria  --> 0.0
+DEBUG:root:--- fusion_rate= {'Blue Bacteria': '0.0', 'Red Bacteria': '0.0'}
+DEBUG:root:Blue Bacteria  --> 0.0
+DEBUG:root:Red Bacteria  --> 0.0
+DEBUG:root:Blue Bacteria  --> 0.0
+DEBUG:root:Red Bacteria  --> 0.0
+DEBUG:root:------------------- fill_xml_intracellular()
+DEBUG:root:------ ["intracellular"]: for Red Bacteria
+DEBUG:root:None
+DEBUG:root:
+
+DEBUG:root:------ ["custom_data"]: for Red Bacteria
+DEBUG:root:
+
+DEBUG:root:----------- end cell_def_tab.py: fill_xml(): ----------
+DEBUG:root:
+--------- user_params_tab.py:  fill_xml(): self.count = 125
+DEBUG:root:--------- found //user_parameters
+DEBUG:root:tumor_radius
+DEBUG:root:oncoprotein_mean
+DEBUG:root:oncoprotein_sd
+DEBUG:root:oncoprotein_min
+DEBUG:root:oncoprotein_max
+DEBUG:root:random_seed
+DEBUG:root:number_of_cells
+DEBUG:root:found 7

@@ -7,677 +7,733 @@
  xmlns:svg="http://www.w3.org/2000/svg" 
  xmlns="http://www.w3.org/2000/svg" 
  version="1.1" 
- width="2000" 
- height="2140" 
+ width="400" 
+ height="428" 
  id="svg2">
-  <rect x="0" y="0" width="2000" height="2140" stroke-width="4" stroke="white" fill="white"/>
-  <text x="25" y="60"
-   font-family="Arial" font-size="50" fill="black" >
+  <rect x="0" y="0" width="400" height="428" stroke-width="0.8" stroke="white" fill="white"/>
+  <text x="5" y="12"
+   font-family="Arial" font-size="10" fill="black" >
    Current time: 3 days, 16 hours, and 0.00 minutes, z = 0.00 &#956;m
   </text>
-  <text x="25" y="115"
-   font-family="Arial" font-size="47.5" fill="black" >
-   161 agents
+  <text x="5" y="23"
+   font-family="Arial" font-size="9.5" fill="black" >
+   175 agents
   </text>
  <g id="tissue" 
-    transform="translate(0,2140) scale(1,-1)">
+    transform="translate(0,428) scale(1,-1)">
   <g id="ECM">
   </g>
   <g id="cells">
    <g id="cell0" type="Blue Bacteria" dead="false" >
-  <circle cx="370.033" cy="1942.92" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="370.033" cy="1942.92" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
+  <circle cx="62.7437" cy="400.041" r="0.750869" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="62.7437" cy="400.041" r="2.88283e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
    </g>
    <g id="cell1" type="Blue Bacteria" dead="false" >
-  <circle cx="1080.06" cy="1011.32" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1080.06" cy="1011.32" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell173" type="Red Bacteria" dead="false" >
-  <circle cx="1560" cy="1607.15" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1560" cy="1607.15" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell3" type="Blue Bacteria" dead="false" >
-  <circle cx="1852.69" cy="814.697" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1852.69" cy="814.697" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell4" type="Blue Bacteria" dead="false" >
-  <circle cx="1836.95" cy="652.269" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1836.95" cy="652.269" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell169" type="Red Bacteria" dead="false" >
-  <circle cx="643.166" cy="8.15048" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="643.166" cy="8.15048" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell6" type="Blue Bacteria" dead="false" >
-  <circle cx="1150.37" cy="534.071" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1150.37" cy="534.071" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell7" type="Blue Bacteria" dead="false" >
-  <circle cx="1308.61" cy="1124.93" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1308.61" cy="1124.93" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell8" type="Blue Bacteria" dead="false" >
-  <circle cx="299.46" cy="127.806" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="299.46" cy="127.806" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell9" type="Blue Bacteria" dead="false" >
-  <circle cx="1313.49" cy="642.828" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1313.49" cy="642.828" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell10" type="Blue Bacteria" dead="false" >
-  <circle cx="399.816" cy="438.728" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="399.816" cy="438.728" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell11" type="Blue Bacteria" dead="false" >
-  <circle cx="486.708" cy="1907.73" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="486.708" cy="1907.73" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell12" type="Blue Bacteria" dead="false" >
-  <circle cx="383.066" cy="1416.04" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="383.066" cy="1416.04" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell13" type="Blue Bacteria" dead="false" >
-  <circle cx="1723.4" cy="348.127" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1723.4" cy="348.127" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell14" type="Blue Bacteria" dead="false" >
-  <circle cx="675.705" cy="1727.32" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="675.705" cy="1727.32" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell15" type="Blue Bacteria" dead="false" >
-  <circle cx="863.607" cy="1090.6" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="863.607" cy="1090.6" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell16" type="Blue Bacteria" dead="false" >
-  <circle cx="215.729" cy="1637.4" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="215.729" cy="1637.4" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell17" type="Blue Bacteria" dead="false" >
-  <circle cx="323.828" cy="358.553" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="323.828" cy="358.553" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell18" type="Blue Bacteria" dead="false" >
-  <circle cx="1607.44" cy="1726.28" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1607.44" cy="1726.28" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell19" type="Blue Bacteria" dead="false" >
-  <circle cx="954.205" cy="1167.32" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="954.205" cy="1167.32" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell167" type="Red Bacteria" dead="false" >
-  <circle cx="491.754" cy="825.094" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="491.754" cy="825.094" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell21" type="Blue Bacteria" dead="false" >
-  <circle cx="1103.64" cy="669.404" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1103.64" cy="669.404" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell22" type="Blue Bacteria" dead="true" >
-  <circle cx="140.397" cy="474.317" r="2.52098" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="140.397" cy="474.317" r="2.229" stroke-width="0.5" stroke="black" fill="black"/>
-   </g>
-   <g id="cell23" type="Blue Bacteria" dead="false" >
-  <circle cx="724.477" cy="1778.07" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="724.477" cy="1778.07" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell24" type="Blue Bacteria" dead="false" >
-  <circle cx="1517.84" cy="1343.86" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1517.84" cy="1343.86" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell25" type="Blue Bacteria" dead="false" >
-  <circle cx="69.974" cy="458.545" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="69.974" cy="458.545" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell193" type="Red Bacteria" dead="false" >
-  <circle cx="1820.85" cy="1223.77" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1820.85" cy="1223.77" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell27" type="Blue Bacteria" dead="false" >
-  <circle cx="1718.78" cy="1078.08" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1718.78" cy="1078.08" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell28" type="Blue Bacteria" dead="false" >
-  <circle cx="1328.99" cy="280.627" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1328.99" cy="280.627" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell29" type="Blue Bacteria" dead="false" >
-  <circle cx="1050.09" cy="199.976" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1050.09" cy="199.976" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell30" type="Blue Bacteria" dead="false" >
-  <circle cx="1512.59" cy="1489.96" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1512.59" cy="1489.96" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell31" type="Blue Bacteria" dead="false" >
-  <circle cx="708.185" cy="1968.12" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="708.185" cy="1968.12" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell32" type="Blue Bacteria" dead="false" >
-  <circle cx="1681.67" cy="1353.85" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1681.67" cy="1353.85" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell33" type="Blue Bacteria" dead="false" >
-  <circle cx="1601.06" cy="758.686" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1601.06" cy="758.686" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell34" type="Blue Bacteria" dead="false" >
-  <circle cx="1353.52" cy="254.32" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1353.52" cy="254.32" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell35" type="Blue Bacteria" dead="false" >
-  <circle cx="1205.72" cy="1194.81" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1205.72" cy="1194.81" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell178" type="Red Bacteria" dead="false" >
-  <circle cx="1061.37" cy="1498.64" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1061.37" cy="1498.64" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell162" type="Red Bacteria" dead="false" >
-  <circle cx="608.1" cy="12.3537" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="608.1" cy="12.3537" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell38" type="Blue Bacteria" dead="true" >
-  <circle cx="496.404" cy="1332.99" r="1.67536" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="496.404" cy="1332.99" r="1.63653" stroke-width="0.5" stroke="black" fill="black"/>
-   </g>
-   <g id="cell39" type="Blue Bacteria" dead="false" >
-  <circle cx="1220.15" cy="1359.52" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1220.15" cy="1359.52" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell40" type="Blue Bacteria" dead="false" >
-  <circle cx="1839.23" cy="1551.71" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1839.23" cy="1551.71" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell181" type="Red Bacteria" dead="false" >
-  <circle cx="493.393" cy="812.2" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="493.393" cy="812.2" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell42" type="Blue Bacteria" dead="false" >
-  <circle cx="985.377" cy="641.104" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="985.377" cy="641.104" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell43" type="Blue Bacteria" dead="false" >
-  <circle cx="637.504" cy="1588.18" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="637.504" cy="1588.18" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell44" type="Blue Bacteria" dead="false" >
-  <circle cx="1049.67" cy="140.931" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1049.67" cy="140.931" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell45" type="Blue Bacteria" dead="false" >
-  <circle cx="1297.63" cy="1264.85" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1297.63" cy="1264.85" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell195" type="Red Bacteria" dead="false" >
-  <circle cx="919.339" cy="1263.22" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="919.339" cy="1263.22" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell168" type="Red Bacteria" dead="false" >
-  <circle cx="620.315" cy="8.93997" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="620.315" cy="8.93997" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell48" type="Blue Bacteria" dead="false" >
-  <circle cx="705.705" cy="940.022" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="705.705" cy="940.022" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell49" type="Blue Bacteria" dead="false" >
-  <circle cx="934.34" cy="868.68" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="934.34" cy="868.68" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell50" type="Blue Bacteria" dead="false" >
-  <circle cx="1276.67" cy="1518.77" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1276.67" cy="1518.77" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell51" type="Blue Bacteria" dead="false" >
-  <circle cx="23.9262" cy="988.746" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="23.9262" cy="988.746" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell199" type="Red Bacteria" dead="false" >
-  <circle cx="921.415" cy="1299.58" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="921.415" cy="1299.58" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell175" type="Red Bacteria" dead="false" >
-  <circle cx="1505.91" cy="19.0882" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1505.91" cy="19.0882" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell54" type="Blue Bacteria" dead="false" >
-  <circle cx="446.438" cy="1432.11" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="446.438" cy="1432.11" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell55" type="Blue Bacteria" dead="false" >
-  <circle cx="1311.05" cy="319.555" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1311.05" cy="319.555" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell56" type="Blue Bacteria" dead="false" >
-  <circle cx="251.82" cy="604.774" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="251.82" cy="604.774" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell57" type="Blue Bacteria" dead="false" >
-  <circle cx="273.87" cy="1027.43" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="273.87" cy="1027.43" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell58" type="Blue Bacteria" dead="false" >
-  <circle cx="1249.99" cy="884.808" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1249.99" cy="884.808" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell177" type="Red Bacteria" dead="false" >
-  <circle cx="631.141" cy="19.891" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="631.141" cy="19.891" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell60" type="Blue Bacteria" dead="false" >
-  <circle cx="1100.45" cy="1982.6" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1100.45" cy="1982.6" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell172" type="Red Bacteria" dead="false" >
-  <circle cx="19.8675" cy="1816.48" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="19.8675" cy="1816.48" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell62" type="Blue Bacteria" dead="false" >
-  <circle cx="1128.77" cy="1505.25" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1128.77" cy="1505.25" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell63" type="Blue Bacteria" dead="false" >
-  <circle cx="1251.25" cy="1762.76" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1251.25" cy="1762.76" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell64" type="Blue Bacteria" dead="false" >
-  <circle cx="1197.98" cy="545.856" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1197.98" cy="545.856" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell65" type="Blue Bacteria" dead="false" >
-  <circle cx="1504.39" cy="1337.86" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1504.39" cy="1337.86" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell66" type="Blue Bacteria" dead="false" >
-  <circle cx="1595.05" cy="1215.36" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1595.05" cy="1215.36" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell67" type="Blue Bacteria" dead="false" >
-  <circle cx="1594.69" cy="483.787" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1594.69" cy="483.787" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell68" type="Blue Bacteria" dead="false" >
-  <circle cx="1244.95" cy="1286.13" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1244.95" cy="1286.13" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell69" type="Blue Bacteria" dead="false" >
-  <circle cx="1912.51" cy="780.527" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1912.51" cy="780.527" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell170" type="Red Bacteria" dead="false" >
-  <circle cx="1421.86" cy="1992.55" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1421.86" cy="1992.55" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell71" type="Blue Bacteria" dead="true" >
-  <circle cx="546.198" cy="1617.31" r="7.65539" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="546.198" cy="1617.31" r="4.62266" stroke-width="0.5" stroke="black" fill="black"/>
-   </g>
-   <g id="cell72" type="Blue Bacteria" dead="false" >
-  <circle cx="1804.83" cy="1893.1" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1804.83" cy="1893.1" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell73" type="Blue Bacteria" dead="false" >
-  <circle cx="782.933" cy="1298.32" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="782.933" cy="1298.32" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell74" type="Blue Bacteria" dead="false" >
-  <circle cx="49.1123" cy="78.1405" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="49.1123" cy="78.1405" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell75" type="Blue Bacteria" dead="false" >
-  <circle cx="1411.77" cy="1162.97" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1411.77" cy="1162.97" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell76" type="Blue Bacteria" dead="false" >
-  <circle cx="991.185" cy="1811.74" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="991.185" cy="1811.74" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell187" type="Red Bacteria" dead="false" >
-  <circle cx="481.68" cy="799.669" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="481.68" cy="799.669" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell78" type="Blue Bacteria" dead="false" >
-  <circle cx="1677.98" cy="1884.96" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1677.98" cy="1884.96" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell79" type="Blue Bacteria" dead="false" >
-  <circle cx="1157.32" cy="360.855" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1157.32" cy="360.855" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell80" type="Blue Bacteria" dead="false" >
-  <circle cx="1506.57" cy="947.986" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1506.57" cy="947.986" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell81" type="Blue Bacteria" dead="false" >
-  <circle cx="913.329" cy="601.582" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="913.329" cy="601.582" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell82" type="Blue Bacteria" dead="false" >
-  <circle cx="1350.01" cy="683.506" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1350.01" cy="683.506" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell83" type="Blue Bacteria" dead="false" >
-  <circle cx="1669.61" cy="1911.71" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1669.61" cy="1911.71" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell84" type="Blue Bacteria" dead="false" >
-  <circle cx="932.611" cy="1774.23" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="932.611" cy="1774.23" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell85" type="Blue Bacteria" dead="false" >
-  <circle cx="558.284" cy="424.259" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="558.284" cy="424.259" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell86" type="Blue Bacteria" dead="false" >
-  <circle cx="951.739" cy="939.021" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="951.739" cy="939.021" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell87" type="Blue Bacteria" dead="false" >
-  <circle cx="1910.06" cy="1321.13" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1910.06" cy="1321.13" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell88" type="Blue Bacteria" dead="false" >
-  <circle cx="1127.69" cy="1432.49" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1127.69" cy="1432.49" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell89" type="Blue Bacteria" dead="false" >
-  <circle cx="711.686" cy="1387.12" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="711.686" cy="1387.12" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell90" type="Blue Bacteria" dead="false" >
-  <circle cx="1671.91" cy="224.512" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1671.91" cy="224.512" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell91" type="Blue Bacteria" dead="false" >
-  <circle cx="1239.83" cy="253.934" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1239.83" cy="253.934" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell92" type="Blue Bacteria" dead="false" >
-  <circle cx="291.16" cy="589.578" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="291.16" cy="589.578" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell93" type="Blue Bacteria" dead="false" >
-  <circle cx="476.255" cy="1227.29" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="476.255" cy="1227.29" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell94" type="Blue Bacteria" dead="false" >
-  <circle cx="1838.76" cy="1477.37" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1838.76" cy="1477.37" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell95" type="Blue Bacteria" dead="false" >
-  <circle cx="1770.39" cy="1167.83" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1770.39" cy="1167.83" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell96" type="Blue Bacteria" dead="false" >
-  <circle cx="1740" cy="1686.22" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1740" cy="1686.22" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell97" type="Blue Bacteria" dead="false" >
-  <circle cx="1496.77" cy="1008.13" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1496.77" cy="1008.13" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell98" type="Blue Bacteria" dead="false" >
-  <circle cx="1821.88" cy="1679.58" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1821.88" cy="1679.58" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell99" type="Blue Bacteria" dead="false" >
-  <circle cx="1928.62" cy="391.667" r="8.41271" stroke-width="0.5" stroke="black" fill="grey"/>
-  <circle cx="1928.62" cy="391.667" r="5.05167" stroke-width="0.5" stroke="grey" fill="grey"/>
-   </g>
-   <g id="cell100" type="Red Bacteria" dead="false" >
-  <circle cx="1501.51" cy="1241.08" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1501.51" cy="1241.08" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell101" type="Red Bacteria" dead="false" >
-  <circle cx="499.574" cy="789.015" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="499.574" cy="789.015" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell102" type="Red Bacteria" dead="false" >
-  <circle cx="1342.86" cy="881.046" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1342.86" cy="881.046" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell103" type="Red Bacteria" dead="true" >
-  <circle cx="1547.05" cy="1596.19" r="2.5701" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1547.05" cy="1596.19" r="2.25579" stroke-width="0.5" stroke="black" fill="black"/>
-   </g>
-   <g id="cell104" type="Red Bacteria" dead="false" >
-  <circle cx="1990.63" cy="1987.46" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1990.63" cy="1987.46" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell192" type="Red Bacteria" dead="false" >
-  <circle cx="495.707" cy="799.876" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="495.707" cy="799.876" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell196" type="Red Bacteria" dead="false" >
-  <circle cx="16.5546" cy="1788.73" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="16.5546" cy="1788.73" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell186" type="Red Bacteria" dead="false" >
-  <circle cx="1529.59" cy="8.69299" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1529.59" cy="8.69299" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell108" type="Red Bacteria" dead="false" >
-  <circle cx="919.384" cy="1985.32" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="919.384" cy="1985.32" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell184" type="Red Bacteria" dead="false" >
-  <circle cx="1518.42" cy="20.9178" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1518.42" cy="20.9178" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell110" type="Red Bacteria" dead="false" >
-  <circle cx="1571.64" cy="1601.26" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1571.64" cy="1601.26" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell111" type="Red Bacteria" dead="false" >
-  <circle cx="1063.13" cy="1521.56" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1063.13" cy="1521.56" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell112" type="Red Bacteria" dead="false" >
-  <circle cx="1260.96" cy="1335.42" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1260.96" cy="1335.42" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell198" type="Red Bacteria" dead="false" >
-  <circle cx="1080.23" cy="1521.17" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1080.23" cy="1521.17" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell114" type="Red Bacteria" dead="false" >
-  <circle cx="22.3667" cy="259.871" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="22.3667" cy="259.871" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell179" type="Red Bacteria" dead="false" >
-  <circle cx="913.491" cy="1310.38" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="913.491" cy="1310.38" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell116" type="Red Bacteria" dead="false" >
-  <circle cx="7.97329" cy="1799.46" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="7.97329" cy="1799.46" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell117" type="Red Bacteria" dead="false" >
-  <circle cx="509.161" cy="777.259" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="509.161" cy="777.259" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell118" type="Red Bacteria" dead="false" >
-  <circle cx="1318.69" cy="997.381" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1318.69" cy="997.381" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell119" type="Red Bacteria" dead="false" >
-  <circle cx="1821.69" cy="1189.28" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1821.69" cy="1189.28" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell120" type="Red Bacteria" dead="false" >
-  <circle cx="1039.33" cy="780.867" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1039.33" cy="780.867" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell121" type="Red Bacteria" dead="false" >
-  <circle cx="508.231" cy="801.122" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="508.231" cy="801.122" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell122" type="Red Bacteria" dead="false" >
-  <circle cx="767.306" cy="1662.5" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="767.306" cy="1662.5" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell123" type="Red Bacteria" dead="false" >
-  <circle cx="1398.37" cy="1978.18" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1398.37" cy="1978.18" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell189" type="Red Bacteria" dead="false" >
-  <circle cx="8.00375" cy="260.981" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="8.00375" cy="260.981" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell125" type="Red Bacteria" dead="false" >
-  <circle cx="497.769" cy="772.417" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="497.769" cy="772.417" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell126" type="Red Bacteria" dead="false" >
-  <circle cx="1408.5" cy="1989.26" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1408.5" cy="1989.26" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell127" type="Red Bacteria" dead="false" >
-  <circle cx="20.0754" cy="1283.32" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="20.0754" cy="1283.32" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell165" type="Red Bacteria" dead="false" >
-  <circle cx="500.276" cy="758.657" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="500.276" cy="758.657" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell176" type="Red Bacteria" dead="false" >
-  <circle cx="19.1577" cy="1269.05" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="19.1577" cy="1269.05" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell130" type="Red Bacteria" dead="false" >
-  <circle cx="618.992" cy="23.584" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="618.992" cy="23.584" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell166" type="Red Bacteria" dead="false" >
-  <circle cx="1501.79" cy="581.579" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1501.79" cy="581.579" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell132" type="Red Bacteria" dead="false" >
-  <circle cx="8.23055" cy="1289.08" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="8.23055" cy="1289.08" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell133" type="Red Bacteria" dead="false" >
-  <circle cx="1814.27" cy="1200.09" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1814.27" cy="1200.09" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell134" type="Red Bacteria" dead="false" >
-  <circle cx="276.725" cy="436.409" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="276.725" cy="436.409" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell135" type="Red Bacteria" dead="false" >
-  <circle cx="1979.7" cy="1942.7" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1979.7" cy="1942.7" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell188" type="Red Bacteria" dead="false" >
-  <circle cx="1278.08" cy="1279.79" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1278.08" cy="1279.79" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell137" type="Red Bacteria" dead="false" >
-  <circle cx="1039.72" cy="795.507" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1039.72" cy="795.507" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell138" type="Red Bacteria" dead="false" >
-  <circle cx="1943.26" cy="260.914" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1943.26" cy="260.914" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell139" type="Red Bacteria" dead="false" >
-  <circle cx="1417.68" cy="1979.87" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1417.68" cy="1979.87" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell140" type="Red Bacteria" dead="false" >
-  <circle cx="220.755" cy="221.192" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="220.755" cy="221.192" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
-   </g>
-   <g id="cell197" type="Red Bacteria" dead="false" >
-  <circle cx="1831.76" cy="1200.23" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1831.76" cy="1200.23" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+  <circle cx="316.96" cy="222.839" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="316.96" cy="222.839" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
    </g>
    <g id="cell190" type="Red Bacteria" dead="false" >
-  <circle cx="1516.97" cy="7.46533" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1516.97" cy="7.46533" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+  <circle cx="319.643" cy="1.2298" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="319.643" cy="1.2298" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell3" type="Blue Bacteria" dead="false" >
+  <circle cx="400.001" cy="147.982" r="0.427104" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="400.001" cy="147.982" r="3.10601e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell4" type="Blue Bacteria" dead="false" >
+  <circle cx="337.84" cy="159.941" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="337.84" cy="159.941" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell5" type="Blue Bacteria" dead="false" >
+  <circle cx="135.877" cy="267.316" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="135.877" cy="267.316" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell6" type="Blue Bacteria" dead="false" >
+  <circle cx="275.293" cy="74.8053" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="275.293" cy="74.8053" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell7" type="Blue Bacteria" dead="false" >
+  <circle cx="280.49" cy="337.572" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="280.49" cy="337.572" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell193" type="Red Bacteria" dead="false" >
+  <circle cx="339.575" cy="201.761" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="339.575" cy="201.761" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell9" type="Blue Bacteria" dead="false" >
+  <circle cx="339.244" cy="83.2502" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="339.244" cy="83.2502" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell10" type="Blue Bacteria" dead="false" >
+  <circle cx="-0.0807947" cy="41.6875" r="0.0323703" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="-0.0807947" cy="41.6875" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell11" type="Blue Bacteria" dead="false" >
+  <circle cx="116.509" cy="400.074" r="0.393756" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="116.509" cy="400.074" r="3.10812e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell12" type="Blue Bacteria" dead="false" >
+  <circle cx="96.7582" cy="400.012" r="0.00419346" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="96.7582" cy="400.012" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell182" type="Red Bacteria" dead="false" >
+  <circle cx="-0.00131308" cy="383.429" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="-0.00131308" cy="383.429" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell14" type="Blue Bacteria" dead="false" >
+  <circle cx="139.539" cy="400.062" r="0.213964" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="139.539" cy="400.062" r="3.11164e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell15" type="Blue Bacteria" dead="false" >
+  <circle cx="326.403" cy="159.447" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="326.403" cy="159.447" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell16" type="Blue Bacteria" dead="false" >
+  <circle cx="-0.0464866" cy="258.665" r="0.000328902" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="-0.0464866" cy="258.665" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell17" type="Blue Bacteria" dead="false" >
+  <circle cx="150.936" cy="-0.0356064" r="0.0433455" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="150.936" cy="-0.0356064" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell192" type="Red Bacteria" dead="false" >
+  <circle cx="118.368" cy="121.745" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="118.368" cy="121.745" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell19" type="Blue Bacteria" dead="false" >
+  <circle cx="271.896" cy="53.0297" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="271.896" cy="53.0297" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell20" type="Blue Bacteria" dead="false" >
+  <circle cx="400.021" cy="266.216" r="0.252135" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="400.021" cy="266.216" r="3.11145e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell21" type="Blue Bacteria" dead="false" >
+  <circle cx="322.915" cy="115.604" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="322.915" cy="115.604" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell22" type="Blue Bacteria" dead="false" >
+  <circle cx="-0.038524" cy="50.8087" r="0.0859256" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="-0.038524" cy="50.8087" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell23" type="Blue Bacteria" dead="false" >
+  <circle cx="255.482" cy="250.925" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="255.482" cy="250.925" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell24" type="Blue Bacteria" dead="false" >
+  <circle cx="327.159" cy="347.966" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="327.159" cy="347.966" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell25" type="Blue Bacteria" dead="false" >
+  <circle cx="-0.0424049" cy="84.7218" r="0.646103" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="-0.0424049" cy="84.7218" r="3.04418e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell187" type="Red Bacteria" dead="false" >
+  <circle cx="117.954" cy="139.21" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="117.954" cy="139.21" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell27" type="Blue Bacteria" dead="false" >
+  <circle cx="274.43" cy="376.021" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="274.43" cy="376.021" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell28" type="Blue Bacteria" dead="false" >
+  <circle cx="323.347" cy="-0.0403419" r="0.00148204" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="323.347" cy="-0.0403419" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell29" type="Blue Bacteria" dead="false" >
+  <circle cx="263.717" cy="33.142" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="263.717" cy="33.142" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell178" type="Red Bacteria" dead="false" >
+  <circle cx="120.324" cy="136.873" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="120.324" cy="136.873" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell31" type="Blue Bacteria" dead="false" >
+  <circle cx="133.591" cy="400.077" r="0.750869" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="133.591" cy="400.077" r="2.88283e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell32" type="Blue Bacteria" dead="false" >
+  <circle cx="400.093" cy="222.591" r="0.0295477" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="400.093" cy="222.591" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell33" type="Blue Bacteria" dead="false" >
+  <circle cx="377.597" cy="294.707" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="377.597" cy="294.707" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell34" type="Blue Bacteria" dead="false" >
+  <circle cx="260.607" cy="-0.0639429" r="0.310924" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="260.607" cy="-0.0639429" r="3.11078e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell175" type="Red Bacteria" dead="false" >
+  <circle cx="317.16" cy="-0.0310332" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="317.16" cy="-0.0310332" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell36" type="Blue Bacteria" dead="false" >
+  <circle cx="319.729" cy="169.966" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="319.729" cy="169.966" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell37" type="Blue Bacteria" dead="false" >
+  <circle cx="273.786" cy="400.032" r="0.704035" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="273.786" cy="400.032" r="2.98447e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell38" type="Blue Bacteria" dead="false" >
+  <circle cx="165.232" cy="246.605" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="165.232" cy="246.605" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell39" type="Blue Bacteria" dead="false" >
+  <circle cx="275.462" cy="341.85" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="275.462" cy="341.85" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell40" type="Blue Bacteria" dead="false" >
+  <circle cx="400.067" cy="302.273" r="0.366212" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="400.067" cy="302.273" r="3.10933e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell183" type="Red Bacteria" dead="false" >
+  <circle cx="361.168" cy="240.413" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="361.168" cy="240.413" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell194" type="Red Bacteria" dead="false" >
+  <circle cx="239.467" cy="400.017" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="239.467" cy="400.017" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell43" type="Blue Bacteria" dead="false" >
+  <circle cx="34.7121" cy="290.071" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="34.7121" cy="290.071" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell44" type="Blue Bacteria" dead="false" >
+  <circle cx="168.804" cy="-0.0118758" r="0.236544" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="168.804" cy="-0.0118758" r="3.11154e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell45" type="Blue Bacteria" dead="false" >
+  <circle cx="333.295" cy="259.936" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="333.295" cy="259.936" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell46" type="Blue Bacteria" dead="false" >
+  <circle cx="170.949" cy="301.314" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="170.949" cy="301.314" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell47" type="Blue Bacteria" dead="false" >
+  <circle cx="265.463" cy="400.042" r="0.000338029" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="265.463" cy="400.042" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell48" type="Blue Bacteria" dead="false" >
+  <circle cx="52.169" cy="187.877" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="52.169" cy="187.877" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell49" type="Blue Bacteria" dead="false" >
+  <circle cx="284.98" cy="168.364" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="284.98" cy="168.364" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell188" type="Red Bacteria" dead="false" >
+  <circle cx="256.504" cy="189.416" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="256.504" cy="189.416" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell51" type="Blue Bacteria" dead="false" >
+  <circle cx="-0.0790557" cy="177.301" r="0.533455" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="-0.0790557" cy="177.301" r="3.09121e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell52" type="Blue Bacteria" dead="false" >
+  <circle cx="400.024" cy="61.4948" r="0.675785" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="400.024" cy="61.4948" r="3.01906e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell53" type="Blue Bacteria" dead="false" >
+  <circle cx="137.765" cy="203.13" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="137.765" cy="203.13" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell54" type="Blue Bacteria" dead="false" >
+  <circle cx="-0.0688068" cy="235.309" r="0.0105384" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="-0.0688068" cy="235.309" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell55" type="Blue Bacteria" dead="true" >
+  <circle cx="331.194" cy="251.727" r="2.71457e-05" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="331.194" cy="251.727" r="8.18579e-35" stroke-width="0.5" stroke="black" fill="black"/>
+   </g>
+   <g id="cell56" type="Blue Bacteria" dead="false" >
+  <circle cx="153.806" cy="122.314" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="153.806" cy="122.314" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell57" type="Blue Bacteria" dead="false" >
+  <circle cx="-0.0234335" cy="145.483" r="0.00854356" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="-0.0234335" cy="145.483" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell58" type="Blue Bacteria" dead="false" >
+  <circle cx="288.436" cy="164.693" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="288.436" cy="164.693" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell59" type="Blue Bacteria" dead="false" >
+  <circle cx="309.956" cy="352.756" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="309.956" cy="352.756" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell60" type="Blue Bacteria" dead="false" >
+  <circle cx="308.574" cy="400.002" r="0.322454" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="308.574" cy="400.002" r="3.11056e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell61" type="Blue Bacteria" dead="false" >
+  <circle cx="165.018" cy="400.002" r="0.22807" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="165.018" cy="400.002" r="3.11158e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell62" type="Blue Bacteria" dead="false" >
+  <circle cx="273.725" cy="256.476" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="273.725" cy="256.476" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell63" type="Blue Bacteria" dead="false" >
+  <circle cx="400.009" cy="179.131" r="0.000640208" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="400.009" cy="179.131" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell64" type="Blue Bacteria" dead="false" >
+  <circle cx="392.913" cy="105.016" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="392.913" cy="105.016" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell65" type="Blue Bacteria" dead="false" >
+  <circle cx="323.464" cy="400.074" r="0.00186175" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="323.464" cy="400.074" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell66" type="Blue Bacteria" dead="false" >
+  <circle cx="265.014" cy="277.926" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="265.014" cy="277.926" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell67" type="Blue Bacteria" dead="false" >
+  <circle cx="337.483" cy="127.882" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="337.483" cy="127.882" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell68" type="Blue Bacteria" dead="false" >
+  <circle cx="356.518" cy="318.465" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="356.518" cy="318.465" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell184" type="Red Bacteria" dead="false" >
+  <circle cx="400.023" cy="7.65816" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="400.023" cy="7.65816" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell70" type="Blue Bacteria" dead="false" >
+  <circle cx="400.03" cy="122.389" r="0.000701366" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="400.03" cy="122.389" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell71" type="Blue Bacteria" dead="false" >
+  <circle cx="97.9547" cy="312.935" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="97.9547" cy="312.935" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell72" type="Blue Bacteria" dead="false" >
+  <circle cx="380.222" cy="400.005" r="0.591138" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="380.222" cy="400.005" r="3.07365e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell73" type="Blue Bacteria" dead="false" >
+  <circle cx="271.008" cy="343.372" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="271.008" cy="343.372" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell74" type="Blue Bacteria" dead="false" >
+  <circle cx="-0.00554925" cy="3.07738" r="0.561854" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="-0.00554925" cy="3.07738" r="3.0838e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell75" type="Blue Bacteria" dead="false" >
+  <circle cx="260.911" cy="206.991" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="260.911" cy="206.991" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell176" type="Red Bacteria" dead="false" >
+  <circle cx="-0.0568013" cy="295.467" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="-0.0568013" cy="295.467" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell77" type="Blue Bacteria" dead="false" >
+  <circle cx="303.458" cy="400.013" r="0.0146359" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="303.458" cy="400.013" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell78" type="Blue Bacteria" dead="false" >
+  <circle cx="270.648" cy="400.005" r="0.221914" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="270.648" cy="400.005" r="3.11161e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell79" type="Blue Bacteria" dead="false" >
+  <circle cx="292.316" cy="51.6856" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="292.316" cy="51.6856" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell80" type="Blue Bacteria" dead="false" >
+  <circle cx="321.112" cy="105.53" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="321.112" cy="105.53" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell198" type="Red Bacteria" dead="false" >
+  <circle cx="123.463" cy="123.556" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="123.463" cy="123.556" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell82" type="Blue Bacteria" dead="false" >
+  <circle cx="373.516" cy="162.719" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="373.516" cy="162.719" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell83" type="Blue Bacteria" dead="false" >
+  <circle cx="287.792" cy="400.001" r="0.02823" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="287.792" cy="400.001" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell84" type="Blue Bacteria" dead="false" >
+  <circle cx="214.276" cy="400.038" r="0.164228" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="214.276" cy="400.038" r="3.11173e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell85" type="Blue Bacteria" dead="false" >
+  <circle cx="121.306" cy="163.764" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="121.306" cy="163.764" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell189" type="Red Bacteria" dead="false" >
+  <circle cx="-0.0446946" cy="59.9989" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="-0.0446946" cy="59.9989" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell87" type="Blue Bacteria" dead="false" >
+  <circle cx="400.008" cy="251.694" r="0.74295" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="400.008" cy="251.694" r="2.90374e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell88" type="Blue Bacteria" dead="false" >
+  <circle cx="260.185" cy="326.72" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="260.185" cy="326.72" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell89" type="Blue Bacteria" dead="false" >
+  <circle cx="60.8066" cy="186.169" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="60.8066" cy="186.169" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell185" type="Red Bacteria" dead="false" >
+  <circle cx="17.3851" cy="400.084" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="17.3851" cy="400.084" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell91" type="Blue Bacteria" dead="false" >
+  <circle cx="269.712" cy="-0.0961623" r="0.626048" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="269.712" cy="-0.0961623" r="3.05694e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell92" type="Blue Bacteria" dead="false" >
+  <circle cx="57.4503" cy="121.697" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="57.4503" cy="121.697" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell93" type="Blue Bacteria" dead="false" >
+  <circle cx="127.238" cy="218.404" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="127.238" cy="218.404" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell94" type="Blue Bacteria" dead="false" >
+  <circle cx="400.034" cy="293.845" r="0.454837" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="400.034" cy="293.845" r="3.10355e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell95" type="Blue Bacteria" dead="false" >
+  <circle cx="329.42" cy="83.6164" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="329.42" cy="83.6164" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell96" type="Blue Bacteria" dead="false" >
+  <circle cx="364.287" cy="400.053" r="0.0312103" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="364.287" cy="400.053" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell97" type="Blue Bacteria" dead="false" >
+  <circle cx="381.916" cy="132.791" r="0.000276555" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="381.916" cy="132.791" r="3.11175e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell98" type="Blue Bacteria" dead="false" >
+  <circle cx="356.211" cy="400.103" r="0.103126" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="356.211" cy="400.103" r="3.11176e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell99" type="Blue Bacteria" dead="false" >
+  <circle cx="400.033" cy="95.4626" r="0.561854" stroke-width="0.5" stroke="black" fill="grey"/>
+  <circle cx="400.033" cy="95.4626" r="3.0838e-34" stroke-width="0.5" stroke="grey" fill="grey"/>
+   </g>
+   <g id="cell100" type="Red Bacteria" dead="false" >
+  <circle cx="358.842" cy="240.051" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="358.842" cy="240.051" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell101" type="Red Bacteria" dead="false" >
+  <circle cx="120.619" cy="135.266" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="120.619" cy="135.266" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell186" type="Red Bacteria" dead="false" >
+  <circle cx="321.01" cy="-0.0929578" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="321.01" cy="-0.0929578" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell103" type="Red Bacteria" dead="false" >
+  <circle cx="381.508" cy="400.032" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="381.508" cy="400.032" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell104" type="Red Bacteria" dead="false" >
+  <circle cx="400.004" cy="388.527" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="400.004" cy="388.527" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell105" type="Red Bacteria" dead="false" >
+  <circle cx="-0.057472" cy="386.491" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="-0.057472" cy="386.491" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell106" type="Red Bacteria" dead="false" >
+  <circle cx="118.724" cy="134.913" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="118.724" cy="134.913" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell107" type="Red Bacteria" dead="false" >
+  <circle cx="390.185" cy="400.023" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="390.185" cy="400.023" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell108" type="Red Bacteria" dead="false" >
+  <circle cx="160.705" cy="400.062" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="160.705" cy="400.062" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell109" type="Red Bacteria" dead="false" >
+  <circle cx="362.018" cy="238.996" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="362.018" cy="238.996" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell110" type="Red Bacteria" dead="false" >
+  <circle cx="400.052" cy="392.99" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="400.052" cy="392.99" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell111" type="Red Bacteria" dead="false" >
+  <circle cx="118.503" cy="119.446" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="118.503" cy="119.446" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell112" type="Red Bacteria" dead="false" >
+  <circle cx="258.411" cy="183.621" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="258.411" cy="183.621" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell113" type="Red Bacteria" dead="false" >
+  <circle cx="157.875" cy="400.036" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="157.875" cy="400.036" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell114" type="Red Bacteria" dead="false" >
+  <circle cx="-0.0170762" cy="31.3223" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="-0.0170762" cy="31.3223" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell115" type="Red Bacteria" dead="false" >
+  <circle cx="117.481" cy="-0.0584107" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="117.481" cy="-0.0584107" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell116" type="Red Bacteria" dead="false" >
+  <circle cx="15.9457" cy="400.02" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="15.9457" cy="400.02" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell117" type="Red Bacteria" dead="false" >
+  <circle cx="120.202" cy="125.803" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="120.202" cy="125.803" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell118" type="Red Bacteria" dead="true" >
+  <circle cx="257.717" cy="198.137" r="0.223065" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="257.717" cy="198.137" r="0.218389" stroke-width="0.5" stroke="black" fill="black"/>
+   </g>
+   <g id="cell119" type="Red Bacteria" dead="false" >
+  <circle cx="359.449" cy="237.245" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="359.449" cy="237.245" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell120" type="Red Bacteria" dead="false" >
+  <circle cx="121.228" cy="127.006" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="121.228" cy="127.006" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell121" type="Red Bacteria" dead="false" >
+  <circle cx="115.917" cy="138.508" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="115.917" cy="138.508" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell122" type="Red Bacteria" dead="false" >
+  <circle cx="159.596" cy="387.433" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="159.596" cy="387.433" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell123" type="Red Bacteria" dead="false" >
+  <circle cx="394.314" cy="400.098" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="394.314" cy="400.098" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell124" type="Red Bacteria" dead="false" >
+  <circle cx="235.732" cy="182.863" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="235.732" cy="182.863" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell125" type="Red Bacteria" dead="false" >
+  <circle cx="122.811" cy="129.273" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="122.811" cy="129.273" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell126" type="Red Bacteria" dead="false" >
+  <circle cx="361.374" cy="400.05" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="361.374" cy="400.05" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell127" type="Red Bacteria" dead="false" >
+  <circle cx="9.62878" cy="400.04" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="9.62878" cy="400.04" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell128" type="Red Bacteria" dead="false" >
+  <circle cx="319.782" cy="-0.0109649" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="319.782" cy="-0.0109649" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell129" type="Red Bacteria" dead="false" >
+  <circle cx="352.849" cy="218.962" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="352.849" cy="218.962" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell130" type="Red Bacteria" dead="false" >
+  <circle cx="121.712" cy="-0.0296209" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="121.712" cy="-0.0296209" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell131" type="Red Bacteria" dead="false" >
+  <circle cx="400.029" cy="200.223" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="400.029" cy="200.223" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell132" type="Red Bacteria" dead="false" >
+  <circle cx="-0.0032313" cy="380.059" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="-0.0032313" cy="380.059" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell133" type="Red Bacteria" dead="false" >
+  <circle cx="361.707" cy="236.89" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="361.707" cy="236.89" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell134" type="Red Bacteria" dead="false" >
+  <circle cx="120.269" cy="140.107" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="120.269" cy="140.107" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell135" type="Red Bacteria" dead="false" >
+  <circle cx="400.084" cy="385.317" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="400.084" cy="385.317" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell136" type="Red Bacteria" dead="false" >
+  <circle cx="163.634" cy="400.03" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="163.634" cy="400.03" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell137" type="Red Bacteria" dead="false" >
+  <circle cx="118.901" cy="137.233" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="118.901" cy="137.233" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell138" type="Red Bacteria" dead="false" >
+  <circle cx="387.306" cy="-0.0726748" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="387.306" cy="-0.0726748" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell139" type="Red Bacteria" dead="false" >
+  <circle cx="395.779" cy="400.011" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="395.779" cy="400.011" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell140" type="Red Bacteria" dead="false" >
+  <circle cx="118.602" cy="2.16641" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="118.602" cy="2.16641" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell141" type="Red Bacteria" dead="false" >
+  <circle cx="162.152" cy="400.082" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="162.152" cy="400.082" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell142" type="Red Bacteria" dead="false" >
+  <circle cx="119.892" cy="138.807" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="119.892" cy="138.807" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
    <g id="cell143" type="Red Bacteria" dead="false" >
-  <circle cx="910.824" cy="1279.15" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="910.824" cy="1279.15" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+  <circle cx="156.534" cy="400.053" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="156.534" cy="400.053" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
    <g id="cell144" type="Red Bacteria" dead="false" >
-  <circle cx="640.451" cy="28.5282" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="640.451" cy="28.5282" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+  <circle cx="318.658" cy="-0.0422299" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="318.658" cy="-0.0422299" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
-   <g id="cell145" type="Red Bacteria" dead="false" >
-  <circle cx="8.16458" cy="1276.18" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="8.16458" cy="1276.18" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+   <g id="cell199" type="Red Bacteria" dead="false" >
+  <circle cx="121.004" cy="121.881" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="121.004" cy="121.881" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
    <g id="cell146" type="Red Bacteria" dead="false" >
-  <circle cx="1515.68" cy="579.761" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1515.68" cy="579.761" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+  <circle cx="123.266" cy="-0.0145849" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="123.266" cy="-0.0145849" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
    <g id="cell147" type="Red Bacteria" dead="false" >
-  <circle cx="1580.26" cy="1588.43" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1580.26" cy="1588.43" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+  <circle cx="385.929" cy="400.017" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="385.929" cy="400.017" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
    <g id="cell148" type="Red Bacteria" dead="false" >
-  <circle cx="7.86021" cy="1811.11" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="7.86021" cy="1811.11" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+  <circle cx="-0.0983096" cy="391.835" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="-0.0983096" cy="391.835" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
    <g id="cell149" type="Red Bacteria" dead="false" >
-  <circle cx="630.546" cy="7.70564" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="630.546" cy="7.70564" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+  <circle cx="114.804" cy="-0.053258" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="114.804" cy="-0.053258" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
    <g id="cell150" type="Red Bacteria" dead="false" >
-  <circle cx="233.489" cy="219.907" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="233.489" cy="219.907" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+  <circle cx="119.401" cy="135.962" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="119.401" cy="135.962" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
-   <g id="cell151" type="Red Bacteria" dead="false" >
-  <circle cx="1820.35" cy="1209.87" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1820.35" cy="1209.87" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+   <g id="cell191" type="Red Bacteria" dead="false" >
+  <circle cx="121.756" cy="19.0105" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="121.756" cy="19.0105" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
    <g id="cell152" type="Red Bacteria" dead="false" >
-  <circle cx="20.1844" cy="1802.12" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="20.1844" cy="1802.12" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+  <circle cx="7.82376" cy="400.047" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="7.82376" cy="400.047" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
    <g id="cell153" type="Red Bacteria" dead="false" >
-  <circle cx="919.806" cy="1288.48" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="919.806" cy="1288.48" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+  <circle cx="159.374" cy="400.063" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="159.374" cy="400.063" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
-   <g id="cell154" type="Red Bacteria" dead="false" >
-  <circle cx="780.463" cy="1662.29" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="780.463" cy="1662.29" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+   <g id="cell196" type="Red Bacteria" dead="false" >
+  <circle cx="-0.066081" cy="389.059" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="-0.066081" cy="389.059" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
-   <g id="cell155" type="Red Bacteria" dead="true" >
-  <circle cx="29.3827" cy="1823.79" r="2.04991" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="29.3827" cy="1823.79" r="1.93256" stroke-width="0.5" stroke="black" fill="black"/>
+   <g id="cell155" type="Red Bacteria" dead="false" >
+  <circle cx="18.7074" cy="400.004" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="18.7074" cy="400.004" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
-   <g id="cell156" type="Red Bacteria" dead="false" >
-  <circle cx="907.626" cy="1295.57" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="907.626" cy="1295.57" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+   <g id="cell177" type="Red Bacteria" dead="false" >
+  <circle cx="118.764" cy="-0.0035018" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="118.764" cy="-0.0035018" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
    <g id="cell157" type="Red Bacteria" dead="false" >
-  <circle cx="1528.9" cy="579.033" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1528.9" cy="579.033" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+  <circle cx="322.705" cy="-0.0515298" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="322.705" cy="-0.0515298" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
    <g id="cell158" type="Red Bacteria" dead="false" >
-  <circle cx="1533.1" cy="23.0026" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1533.1" cy="23.0026" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+  <circle cx="314.99" cy="-0.0347149" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="314.99" cy="-0.0347149" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
    <g id="cell159" type="Red Bacteria" dead="false" >
-  <circle cx="1560" cy="1593.13" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="1560" cy="1593.13" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+  <circle cx="400.009" cy="396.458" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="400.009" cy="396.458" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
    <g id="cell160" type="Red Bacteria" dead="false" >
-  <circle cx="925.183" cy="1278.02" r="8.41271" stroke-width="0.5" stroke="black" fill="red"/>
-  <circle cx="925.183" cy="1278.02" r="5.05167" stroke-width="0.5" stroke="red" fill="red"/>
+  <circle cx="118.437" cy="127.221" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="118.437" cy="127.221" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell161" type="Red Bacteria" dead="false" >
+  <circle cx="324.235" cy="-0.0668603" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="324.235" cy="-0.0668603" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell162" type="Red Bacteria" dead="false" >
+  <circle cx="116.201" cy="-0.0476963" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="116.201" cy="-0.0476963" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell163" type="Red Bacteria" dead="false" >
+  <circle cx="119.646" cy="133.475" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="119.646" cy="133.475" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell164" type="Red Bacteria" dead="false" >
+  <circle cx="400.018" cy="383.818" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="400.018" cy="383.818" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell165" type="Red Bacteria" dead="false" >
+  <circle cx="120.717" cy="119.999" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="120.717" cy="119.999" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell166" type="Red Bacteria" dead="false" >
+  <circle cx="320.221" cy="10.4918" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="320.221" cy="10.4918" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell179" type="Red Bacteria" dead="false" >
+  <circle cx="120.814" cy="129.36" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="120.814" cy="129.36" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell168" type="Red Bacteria" dead="false" >
+  <circle cx="117.993" cy="11.7294" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="117.993" cy="11.7294" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell169" type="Red Bacteria" dead="false" >
+  <circle cx="120.245" cy="-0.028037" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="120.245" cy="-0.028037" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell170" type="Red Bacteria" dead="false" >
+  <circle cx="121.976" cy="136.483" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="121.976" cy="136.483" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell171" type="Red Bacteria" dead="false" >
+  <circle cx="119.741" cy="122.209" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="119.741" cy="122.209" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell172" type="Red Bacteria" dead="false" >
+  <circle cx="4.65962" cy="400.024" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="4.65962" cy="400.024" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell173" type="Red Bacteria" dead="false" >
+  <circle cx="392.372" cy="400.035" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="392.372" cy="400.035" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
+   </g>
+   <g id="cell174" type="Red Bacteria" dead="false" >
+  <circle cx="320.771" cy="15.6928" r="0.8947" stroke-width="0.5" stroke="black" fill="red"/>
+  <circle cx="320.771" cy="15.6928" r="0.62035" stroke-width="0.5" stroke="red" fill="red"/>
    </g>
   </g>
  </g>
-  <rect x="1750" y="2070" width="200" height="20" stroke-width="4" stroke="rgb(255,255,255)" fill="rgb(0,0,0)"/>
-  <text x="1762.5" y="2057.5"
-   font-family="Arial" font-size="50" fill="black" >
+  <rect x="190" y="414" width="200" height="4" stroke-width="0.8" stroke="rgb(255,255,255)" fill="rgb(0,0,0)"/>
+  <text x="192.5" y="411.5"
+   font-family="Arial" font-size="10" fill="black" >
    200 &#956;m
   </text>
-  <text x="50" y="2090"
-   font-family="Arial" font-size="37.5" fill="black" >
-   0 days, 0 hours, 1 minutes, and 5.7478 seconds
+  <text x="10" y="418"
+   font-family="Arial" font-size="7.5" fill="black" >
+   0 days, 0 hours, 0 minutes, and 7.5272 seconds
   </text>
-  <rect x="0" y="140" width="2000" height="2000" stroke-width="4" stroke="rgb(0,0,0)" fill="none"/>
+  <rect x="0" y="28" width="400" height="400" stroke-width="0.8" stroke="rgb(0,0,0)" fill="none"/>
 </svg>

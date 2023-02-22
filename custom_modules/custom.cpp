@@ -130,6 +130,125 @@ void create_cell_types( void )
 	return; 
 }
 
+//custom function
+void set_horizontal( void )
+{
+	for( int n = 0; n < microenvironment.mesh.voxels.size() ; n++ )
+	{
+		std::vector<double> position = microenvironment.mesh.voxels[n].center;
+		
+		microenvironment(n)[0] = 1.0; // blue light
+		microenvironment(n)[1] = 0.0; // green light
+		
+		//std::vector<double> position = microenvironment.mesh.voxels[n].center; 
+		
+		
+		if (position[1] < 150) {
+			microenvironment(n)[0] = 0.0;
+			microenvironment(n)[1] = 1.0;
+		} 
+		
+		if (position[1] < 100 && position[1] < 150){
+			microenvironment(n)[0] = 1.0;
+			microenvironment(n)[1] = 0.0;
+		}
+		
+		if (position[1] < 50 && position[1] < 100){
+			microenvironment(n)[0] = 0.0;
+			microenvironment(n)[1] = 1.0;
+		}
+		
+		if (position[1] < 0 && position[1] < 50){
+			microenvironment(n)[0] = 1.0;
+			microenvironment(n)[1] = 0.0;
+		}
+		
+		if (position[1] < -50 && position[1] < 0){
+			microenvironment(n)[0] = 0.0;
+			microenvironment(n)[1] = 1.0;
+		}
+		
+		if (position[1] < -100 && position[1] < -50){
+			microenvironment(n)[0] = 1.0;
+			microenvironment(n)[1] = 0.0;
+		}
+		
+		if (position[1] < -150 && position[1] < -100){
+			microenvironment(n)[0] = 0.0;
+			microenvironment(n)[1] = 1.0;
+		}
+	}
+}
+
+void set_vertical( void )
+{
+	for( int n = 0; n < microenvironment.mesh.voxels.size() ; n++ )
+	{
+		std::vector<double> position = microenvironment.mesh.voxels[n].center;
+		
+		microenvironment(n)[0] = 1.0; // blue light
+		microenvironment(n)[1] = 0.0; // green light
+		
+		//std::vector<double> position = microenvironment.mesh.voxels[n].center; 
+		
+		
+		if (position[0] < 150) {
+			microenvironment(n)[0] = 0.0;
+			microenvironment(n)[1] = 1.0;
+		} 
+		
+		if (position[0] < 100 && position[0] < 150){
+			microenvironment(n)[0] = 1.0;
+			microenvironment(n)[1] = 0.0;
+		}
+		
+		if (position[0] < 50 && position[0] < 100){
+			microenvironment(n)[0] = 0.0;
+			microenvironment(n)[1] = 1.0;
+		}
+		
+		if (position[0] < 0 && position[0] < 50){
+			microenvironment(n)[0] = 1.0;
+			microenvironment(n)[1] = 0.0;
+		}
+		
+		if (position[0] < -50 && position[0] < 0){
+			microenvironment(n)[0] = 0.0;
+			microenvironment(n)[1] = 1.0;
+		}
+		
+		if (position[0] < -100 && position[0] < -50){
+			microenvironment(n)[0] = 1.0;
+			microenvironment(n)[1] = 0.0;
+		}
+		
+		if (position[0] < -150 && position[0] < -100){
+			microenvironment(n)[0] = 0.0;
+			microenvironment(n)[1] = 1.0;
+		}
+	}
+}
+
+void set_half( void )
+{
+	for( int n = 0; n < microenvironment.mesh.voxels.size() ; n++ )
+	{
+		std::vector<double> position = microenvironment.mesh.voxels[n].center;
+		
+		microenvironment(n)[0] = 1.0; // blue light
+		microenvironment(n)[1] = 0.0; // green light
+		
+		//std::vector<double> position = microenvironment.mesh.voxels[n].center; 
+		
+		
+		if (position[0] < 50) {
+			microenvironment(n)[0] = 0.0;
+			microenvironment(n)[1] = 1.0;
+		} 
+		
+	}
+}
+
 void setup_microenvironment( void )
 {
 	// set domain parameters 
@@ -141,8 +260,12 @@ void setup_microenvironment( void )
 	
 	initialize_microenvironment(); 	
 	
+	//set_vertical();
+	set_half();
 	return; 
 }
+
+
 
 void setup_tissue( void )
 {
