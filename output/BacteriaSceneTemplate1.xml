@@ -425,6 +425,7 @@
 	
 	<user_parameters>
 		<tumor_radius type="double" units="micron" description="">250.0</tumor_radius>
+
         <oncoprotein_mean type="double" units="dimensionless" description="">1.0</oncoprotein_mean>
         <oncoprotein_sd type="double" units="dimensionless" description="">0.25</oncoprotein_sd>
         <oncoprotein_min type="double" units="dimensionless" description="">0.0</oncoprotein_min>

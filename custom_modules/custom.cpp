@@ -241,7 +241,7 @@ void set_half( void )
 		//std::vector<double> position = microenvironment.mesh.voxels[n].center; 
 		
 		
-		if (position[0] < 50) {
+		if (position[0] < 10) {
 			microenvironment(n)[0] = 0.0;
 			microenvironment(n)[1] = 1.0;
 		} 
