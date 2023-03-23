@@ -196,7 +196,7 @@
               <use_2D>true</use_2D>
               <chemotaxis>
                 <enabled>true</enabled>
-                <substrate>Blue Light</substrate>
+                <substrate>Blue Chromatin</substrate>
                 <direction>1</direction>
               </chemotaxis>
               <advanced_chemotaxis>
@@ -424,14 +424,8 @@
 	</initial_conditions>		
 	
 	<user_parameters>
-		<tumor_radius type="double" units="micron" description="">250.0</tumor_radius>
-
-        <oncoprotein_mean type="double" units="dimensionless" description="">1.0</oncoprotein_mean>
-        <oncoprotein_sd type="double" units="dimensionless" description="">0.25</oncoprotein_sd>
-        <oncoprotein_min type="double" units="dimensionless" description="">0.0</oncoprotein_min>
-        <oncoprotein_max type="double" units="dimensionless" description="">2</oncoprotein_max>
-        <random_seed type="int" units="dimensionless" description="">0</random_seed>
         <number_of_cells type="int" units="none" description="">100</number_of_cells>
+        <set_division type="int" units="" description="">2</set_division>
     </user_parameters>
 	
 </PhysiCell_settings>

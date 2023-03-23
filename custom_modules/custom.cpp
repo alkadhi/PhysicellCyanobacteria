@@ -67,6 +67,8 @@
 
 #include "./custom.h"
 
+
+
 void create_cell_types( void )
 {
 	// set the random seed 
@@ -121,6 +123,10 @@ void create_cell_types( void )
 	cell_defaults.functions.custom_cell_rule = custom_function; 
 	cell_defaults.functions.contact_function = contact_function; 
 	
+    Cell_Definition *cell_B; // blue bacteria
+    cell_B = find_cell_definition("Blue Bacteria");
+    cell_B->functions.custom_cell_rule = custom_function;
+
 	/*
 	   This builds the map of cell definitions and summarizes the setup. 
 	*/
@@ -260,8 +266,18 @@ void setup_microenvironment( void )
 	
 	initialize_microenvironment(); 	
 	
-	//set_vertical();
-	set_half();
+	switch (parameters.ints("set_division")){
+		case 0:
+			set_vertical();
+			break;
+		case 1:
+			set_horizontal();
+			break;
+		case 2:
+			set_half();
+			break;
+	}
+	
 	return; 
 }
 
@@ -321,7 +337,14 @@ void phenotype_function( Cell* pCell, Phenotype& phenotype, double dt )
 { return; }
 
 void custom_function( Cell* pCell, Phenotype& phenotype , double dt )
-{ return; } 
+{ 
+	if (pCell->nearest_gradient(0).at(1) == 1.0){
+		
+		pCell->phenotype.motility.is_motile = false; 
+	}
+	
+	return; 
+} 
 
 void contact_function( Cell* pMe, Phenotype& phenoMe , Cell* pOther, Phenotype& phenoOther , double dt )
 { return; } 
